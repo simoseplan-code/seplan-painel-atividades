@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SEPLAN · Painel de Atividades e Projetos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --bg-card: #ffffff;
+    --ink: #1a1614;
+    --ink-soft: #5b5249;
+    --ink-faint: #8a8079;
+    --line: #e5dfd2;
+    --line-soft: #efe9dc;
+    --accent: #8b2c1e;        /* terracota institucional */
+    --accent-soft: #c4654e;
+    --gold: #b89344;
+    --ok: #2d6a4f;
+    --warn: #c08300;
+    --bad: #8b2c1e;
+    --shadow: 0 1px 0 rgba(26,22,20,.04), 0 8px 24px -16px rgba(26,22,20,.18);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: 'Inter Tight', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  body {
+    background-image:
+      radial-gradient(circle at 0% 0%, rgba(139,44,30,.05), transparent 40%),
+      radial-gradient(circle at 100% 100%, rgba(184,147,68,.06), transparent 40%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  a { color: inherit; }
+
+  /* ----- Cabeçalho ----- */
+  header.top {
+    border-bottom: 1px solid var(--line);
+    padding: 28px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; gap: 4px; }
+  .brand .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .brand h1 {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: clamp(28px, 4vw, 44px);
+    letter-spacing: -.02em;
+    line-height: 1;
+  }
+  .brand h1 b { font-style: normal; font-weight: 900; }
+  .meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+  .meta .pulse {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 4px 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+  }
+  .meta .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 0 rgba(45,106,79,.4); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%{ box-shadow: 0 0 0 0 rgba(45,106,79,.4);} 70%{ box-shadow: 0 0 0 8px rgba(45,106,79,0);} 100%{ box-shadow: 0 0 0 0 rgba(45,106,79,0);} }
+
+  /* ----- KPIs ----- */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin: 0;
+  }
+  .kpi {
+    background: var(--bg);
+    padding: 22px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .kpi .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .kpi .value {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: -.03em;
+  }
+  .kpi .sub { font-size: 12px; color: var(--ink-soft); }
+  .kpi.accent .value { color: var(--accent); }
+  .kpi.gold .value { color: var(--gold); }
+  .kpi.ok .value { color: var(--ok); }
+  .kpi.warn .value { color: var(--warn); }
+
+  /* ----- Tabs ----- */
+  nav.tabs {
+    padding: 24px 40px 0;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--line);
+  }
+  nav.tabs button {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 12px 18px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    cursor: pointer;
+    letter-spacing: -.01em;
+    transition: all .15s;
+  }
+  nav.tabs button:hover { color: var(--ink); }
+  nav.tabs button.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* ----- Conteúdo ----- */
+  main { padding: 28px 40px 60px; display: flex; flex-direction: column; gap: 24px; }
+  .panel { display: none; flex-direction: column; gap: 24px; animation: fadeIn .3s ease-out; }
+  .panel.active { display: flex; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px);} to { opacity: 1; transform: none;} }
+
+  .grid-2 { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
+  .grid-3 { display: grid; gap: 24px; grid-template-columns: 1fr 1fr 1fr; }
+  @media (max-width: 900px) {
+    header.top { padding: 20px; }
+    nav.tabs { padding: 16px 20px 0; }
+    main { padding: 20px; }
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 22px 26px;
+    box-shadow: var(--shadow);
+  }
+  .card h2 {
+    margin: 0 0 4px;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: -.01em;
+  }
+  .card h2 b { font-style: normal; font-weight: 700; }
+  .card .card-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 18px;
+  }
+
+  /* ----- Tabelas ----- */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-weight: 500; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  td { padding: 12px 8px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  td.num { text-align: right; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+  .truncate { max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* ----- Barra de progresso inline ----- */
+  .bar { height: 6px; background: var(--line-soft); border-radius: 3px; overflow: hidden; min-width: 60px; }
+  .bar > span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+
+  /* ----- Tags ----- */
+  .tag { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 500; font-family: 'JetBrains Mono', monospace; letter-spacing: .04em; }
+  .tag.ok { background: rgba(45,106,79,.1); color: var(--ok); }
+  .tag.warn { background: rgba(192,131,0,.12); color: var(--warn); }
+  .tag.bad { background: rgba(139,44,30,.1); color: var(--bad); }
+  .tag.neutral { background: var(--line-soft); color: var(--ink-soft); }
+  .tag.dot::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  /* ----- Filtros ----- */
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters input, .filters select {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--ink);
+    outline: none;
+  }
+  .filters input:focus, .filters select:focus { border-color: var(--accent); }
+  .filters input { flex: 1; min-width: 200px; }
+
+  canvas { max-width: 100%; }
+
+  .empty { padding: 24px; text-align: center; color: var(--ink-faint); font-style: italic; }
+
+  footer { padding: 24px 40px; border-top: 1px solid var(--line); font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <span class="eyebrow">SEPLAN · Painel Estratégico</span>
+    <h1>Atividades <b>&amp;</b> Projetos</h1>
+  </div>
+  <div class="meta">
+    <span class="pulse"><span class="dot"></span> <span id="status-text">carregando…</span></span>
+    <span id="generated-at">—</span>
+  </div>
+</header>
+
+<section class="kpis" id="kpis">
+  <div class="kpi"><span class="label">Tarefas totais</span><span class="value" id="kpi-total">—</span><span class="sub">no Bitrix24</span></div>
+  <div class="kpi accent"><span class="label">Em andamento</span><span class="value" id="kpi-doing">—</span><span class="sub">status ativo</span></div>
+  <div class="kpi warn"><span class="label">Atrasadas</span><span class="value" id="kpi-late">—</span><span class="sub">deadline vencido</span></div>
+  <div class="kpi ok"><span class="label">Concluídas</span><span class="value" id="kpi-done">—</span><span class="sub">finalizadas</span></div>
+  <div class="kpi gold"><span class="label">Projetos ativos</span><span class="value" id="kpi-groups">—</span><span class="sub">grupos abertos</span></div>
+</section>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="visao" class="active">Visão geral</button>
+  <button data-tab="setor">Por setor</button>
+  <button data-tab="responsavel">Por responsável</button>
+  <button data-tab="status">Por status</button>
+  <button data-tab="prazo">Por prazo</button>
+  <button data-tab="projetos">Projetos</button>
+  <button data-tab="tarefas">Tarefas (todas)</button>
+</nav>
+
+<main>
+
+  <!-- VISÃO GERAL -->
+  <section class="panel active" id="panel-visao">
+    <div class="grid-2">
+      <div class="card">
+        <h2><b>Distribuição</b> por status</h2>
+        <div class="card-sub">% sobre o total de tarefas</div>
+        <canvas id="chart-status" height="180"></canvas>
+      </div>
+      <div class="card">
+        <h2><b>Tarefas</b> por prazo</h2>
+        <div class="card-sub">situação em relação ao deadline</div>
+        <canvas id="chart-prazo" height="180"></canvas>
+      </div>
+    </div>
+    <div class="card">
+      <h2><b>Top 10</b> projetos por volume</h2>
+      <div class="card-sub">grupos com mais tarefas vinculadas</div>
+      <canvas id="chart-projetos" height="80"></canvas>
+    </div>
+  </section>
+
+  <!-- SETOR -->
+  <section class="panel" id="panel-setor">
+    <div class="card">
+      <h2>Tarefas por <b>setor</b></h2>
+      <div class="card-sub">agregado pelos departamentos dos responsáveis</div>
+      <table id="tbl-setor">
+        <thead><tr><th>Setor</th><th class="num">Total</th><th class="num">Em andamento</th><th class="num">Atrasadas</th><th class="num">Concluídas</th><th>Carga</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- RESPONSÁVEL -->
+  <section class="panel" id="panel-responsavel">
+    <div class="card">
+      <h2>Tarefas por <b>responsável</b></h2>
+      <div class="card-sub">filtre por nome ou setor</div>
+      <div class="filters">
+        <input id="filter-resp" type="text" placeholder="Buscar pessoa…" />
+        <select id="filter-resp-status">
+          <option value="">todos status</option>
+          <option value="ativas">apenas ativas</option>
+          <option value="atrasadas">apenas atrasadas</option>
+        </select>
+      </div>
+      <table id="tbl-resp">
+        <thead><tr><th>Responsável</th><th>Setores</th><th class="num">Total</th><th class="num">Em andamento</th><th class="num">Atrasadas</th><th class="num">Concluídas</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- STATUS -->
+  <section class="panel" id="panel-status">
+    <div class="grid-2">
+      <div class="card">
+        <h2><b>Status</b> · contagem</h2>
+        <div class="card-sub">visão consolidada</div>
+        <canvas id="chart-status-bar" height="220"></canvas>
+      </div>
+      <div class="card">
+        <h2><b>Prioridade</b> × status</h2>
+        <div class="card-sub">cruzamento</div>
+        <canvas id="chart-prio-status" height="220"></canvas>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Detalhe por <b>status</b></h2>
+      <div class="card-sub">clique no status pra ver tarefas</div>
+      <table id="tbl-status">
+        <thead><tr><th>Status</th><th class="num">Tarefas</th><th class="num">% do total</th><th>Distribuição</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PRAZO -->
+  <section class="panel" id="panel-prazo">
+    <div class="card">
+      <h2>Situação por <b>prazo</b></h2>
+      <div class="card-sub">comparação ao deadline cadastrado</div>
+      <div id="prazo-cards" class="grid-3"></div>
+    </div>
+    <div class="card">
+      <h2>Tarefas <b>atrasadas</b></h2>
+      <div class="card-sub">prazo já vencido — ordenadas pelas mais atrasadas</div>
+      <table id="tbl-atrasadas">
+        <thead><tr><th>Tarefa</th><th>Responsável</th><th>Projeto</th><th>Deadline</th><th class="num">Dias</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="panel" id="panel-projetos">
+    <div class="card">
+      <h2><b>Projetos</b> / Grupos</h2>
+      <div class="card-sub">espaços de trabalho do Bitrix24</div>
+      <div class="filters">
+        <input id="filter-proj" type="text" placeholder="Buscar projeto…" />
+      </div>
+      <table id="tbl-projetos">
+        <thead><tr><th>Projeto</th><th>Responsável</th><th class="num">Tarefas</th><th class="num">Em andamento</th><th class="num">Atrasadas</th><th class="num">Concluídas</th><th>Progresso</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAREFAS -->
+  <section class="panel" id="panel-tarefas">
+    <div class="card">
+      <h2>Todas as <b>tarefas</b></h2>
+      <div class="card-sub">busca por texto, projeto, pessoa ou status</div>
+      <div class="filters">
+        <input id="filter-task" type="text" placeholder="Buscar tarefa…" />
+        <select id="filter-task-status">
+          <option value="">todos status</option>
+        </select>
+        <select id="filter-task-group">
+          <option value="">todos projetos</option>
+        </select>
+      </div>
+      <table id="tbl-tarefas">
+        <thead><tr><th>Tarefa</th><th>Status</th><th>Responsável</th><th>Projeto</th><th>Deadline</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>SEPLAN · gerado via webhook Bitrix24</span>
+  <span>Atualização automática a cada 30min</span>
+</footer>
+
+<script>
+// ============================================================
+// Carregamento dos dados
+// ============================================================
+const STATE = { data: null };
+
+async function loadData() {
+  try {
+    const res = await fetch('data.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    STATE.data = await res.json();
+    document.getElementById('status-text').textContent = 'dados atualizados';
+    render();
+  } catch (e) {
+    document.getElementById('status-text').textContent = 'sem dados ainda';
+    console.error(e);
+    document.querySelector('main').insertAdjacentHTML('afterbegin',
+      `<div class="card"><h2>Sem dados</h2><div class="card-sub">aguardando primeira execução</div>
+       <p style="color:var(--ink-soft);font-size:14px;line-height:1.6">
+       O arquivo <code>data.json</code> ainda não foi gerado. Rode o workflow manualmente em
+       <b>Actions → Atualizar dados Bitrix24 → Run workflow</b>, ou aguarde a próxima execução automática (a cada 30 minutos).</p></div>`);
+  }
+}
+
+// ============================================================
+// Helpers
+// ============================================================
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function fmtDateTime(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleString('pt-BR');
+}
+function daysFromNow(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (isNaN(d)) return null;
+  const ms = d.getTime() - Date.now();
+  return Math.round(ms / 86400000);
+}
+function escape(s) {
+  return String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+function statusTag(t) {
+  const cls = ['5'].includes(t.status) ? 'ok'
+    : ['7'].includes(t.status) ? 'bad'
+    : ['3'].includes(t.status) ? 'warn'
+    : 'neutral';
+  return `<span class="tag dot ${cls}">${escape(t.statusLabel)}</span>`;
+}
+function deptNames(ids) {
+  if (!STATE.data) return [];
+  return (ids || []).map(id => STATE.data.departments[id]?.name).filter(Boolean);
+}
+
+// ============================================================
+// Render
+// ============================================================
+function render() {
+  const d = STATE.data;
+  document.getElementById('generated-at').textContent = 'gerado em ' + fmtDateTime(d.generatedAt);
+
+  const tasks = d.tasks;
+  const groups = Object.values(d.groups);
+
+  // KPIs
+  const doing = tasks.filter(t => t.status === '3').length;
+  const done = tasks.filter(t => t.status === '5').length;
+  const late = tasks.filter(t => !t.isClosed && t.deadline && new Date(t.deadline) < new Date()).length;
+  const activeGroups = groups.filter(g => !g.closed).length;
+  document.getElementById('kpi-total').textContent = tasks.length.toLocaleString('pt-BR');
+  document.getElementById('kpi-doing').textContent = doing.toLocaleString('pt-BR');
+  document.getElementById('kpi-late').textContent = late.toLocaleString('pt-BR');
+  document.getElementById('kpi-done').textContent = done.toLocaleString('pt-BR');
+  document.getElementById('kpi-groups').textContent = activeGroups.toLocaleString('pt-BR');
+
+  renderVisao(tasks);
+  renderSetor(tasks);
+  renderResponsavel(tasks);
+  renderStatus(tasks);
+  renderPrazo(tasks);
+  renderProjetos(tasks, groups);
+  renderTarefas(tasks);
+}
+
+// ----- Charts comuns -----
+const CHART_COLORS = ['#8b2c1e', '#b89344', '#2d6a4f', '#c08300', '#5b5249', '#c4654e', '#1a1614', '#8a8079'];
+Chart.defaults.font.family = "'Inter Tight', system-ui, sans-serif";
+Chart.defaults.color = '#5b5249';
+Chart.defaults.borderColor = '#e5dfd2';
+
+let charts = {};
+function destroy(id) { if (charts[id]) { charts[id].destroy(); delete charts[id]; } }
+
+// ----- VISÃO GERAL -----
+function renderVisao(tasks) {
+  const byStatus = {};
+  tasks.forEach(t => { byStatus[t.statusLabel] = (byStatus[t.statusLabel] || 0) + 1; });
+  destroy('status');
+  charts.status = new Chart(document.getElementById('chart-status'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(byStatus),
+      datasets: [{ data: Object.values(byStatus), backgroundColor: CHART_COLORS, borderWidth: 2, borderColor: '#fff' }]
+    },
+    options: { plugins: { legend: { position: 'right' } }, cutout: '60%' }
+  });
+
+  const now = Date.now();
+  const buckets = { 'Atrasadas': 0, 'Hoje': 0, 'Esta semana': 0, 'Futuras': 0, 'Sem prazo': 0, 'Concluídas': 0 };
+  tasks.forEach(t => {
+    if (t.isClosed) { buckets['Concluídas']++; return; }
+    if (!t.deadline) { buckets['Sem prazo']++; return; }
+    const d = new Date(t.deadline).getTime();
+    if (d < now - 86400000) buckets['Atrasadas']++;
+    else if (d < now + 86400000) buckets['Hoje']++;
+    else if (d < now + 7*86400000) buckets['Esta semana']++;
+    else buckets['Futuras']++;
+  });
+  destroy('prazo');
+  charts.prazo = new Chart(document.getElementById('chart-prazo'), {
+    type: 'bar',
+    data: {
+      labels: Object.keys(buckets),
+      datasets: [{ data: Object.values(buckets), backgroundColor: ['#8b2c1e','#c08300','#b89344','#5b5249','#8a8079','#2d6a4f'], borderRadius: 4 }]
+    },
+    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } }
+  });
+
+  // Top projetos
+  const byGroup = {};
+  tasks.forEach(t => { if (t.groupName && t.groupName !== '—') byGroup[t.groupName] = (byGroup[t.groupName] || 0) + 1; });
+  const top = Object.entries(byGroup).sort((a,b) => b[1]-a[1]).slice(0, 10);
+  destroy('projetos');
+  charts.projetos = new Chart(document.getElementById('chart-projetos'), {
+    type: 'bar',
+    data: {
+      labels: top.map(x => x[0]),
+      datasets: [{ data: top.map(x => x[1]), backgroundColor: '#8b2c1e', borderRadius: 3 }]
+    },
+    options: { indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true, ticks: { precision: 0 } } } }
+  });
+}
+
+// ----- SETOR -----
+function renderSetor(tasks) {
+  const dep = STATE.data.departments;
+  const agg = {}; // depId -> stats
+  const ensure = id => agg[id] || (agg[id] = { id, name: dep[id]?.name || (id === '_none' ? 'Sem setor' : `Setor ${id}`), total: 0, doing: 0, late: 0, done: 0 });
+  const now = Date.now();
+  tasks.forEach(t => {
+    const ids = t.responsibleDepartments?.length ? t.responsibleDepartments : ['_none'];
+    ids.forEach(did => {
+      const a = ensure(did);
+      a.total++;
+      if (t.status === '3') a.doing++;
+      if (t.status === '5') a.done++;
+      if (!t.isClosed && t.deadline && new Date(t.deadline).getTime() < now) a.late++;
+    });
+  });
+  const rows = Object.values(agg).sort((a,b) => b.total - a.total);
+  const max = Math.max(...rows.map(r => r.total), 1);
+  const body = document.querySelector('#tbl-setor tbody');
+  if (!rows.length) { body.innerHTML = `<tr><td colspan="6" class="empty">Sem dados de setor</td></tr>`; return; }
+  body.innerHTML = rows.map(r => `
+    <tr>
+      <td>${escape(r.name)}</td>
+      <td class="num">${r.total}</td>
+      <td class="num">${r.doing}</td>
+      <td class="num">${r.late ? `<span class="tag bad">${r.late}</span>` : '0'}</td>
+      <td class="num">${r.done}</td>
+      <td><div class="bar"><span style="width:${(r.total/max*100).toFixed(1)}%"></span></div></td>
+    </tr>`).join('');
+}
+
+// ----- RESPONSÁVEL -----
+function renderResponsavel(tasks) {
+  const users = STATE.data.users;
+  const agg = {};
+  const now = Date.now();
+  tasks.forEach(t => {
+    const id = t.responsibleId || '_none';
+    if (!agg[id]) agg[id] = { id, name: users[id]?.name || (id === '_none' ? '— (sem responsável)' : `User ${id}`), depts: users[id]?.departmentIds || [], total: 0, doing: 0, late: 0, done: 0 };
+    agg[id].total++;
+    if (t.status === '3') agg[id].doing++;
+    if (t.status === '5') agg[id].done++;
+    if (!t.isClosed && t.deadline && new Date(t.deadline).getTime() < now) agg[id].late++;
+  });
+
+  const all = Object.values(agg).sort((a,b) => b.total - a.total);
+  const search = document.getElementById('filter-resp');
+  const statusF = document.getElementById('filter-resp-status');
+
+  const draw = () => {
+    const q = search.value.toLowerCase().trim();
+    const sf = statusF.value;
+    let rows = all;
+    if (q) rows = rows.filter(r => r.name.toLowerCase().includes(q) || deptNames(r.depts).join(' ').toLowerCase().includes(q));
+    if (sf === 'ativas') rows = rows.filter(r => r.total - r.done > 0);
+    if (sf === 'atrasadas') rows = rows.filter(r => r.late > 0);
+    const body = document.querySelector('#tbl-resp tbody');
+    if (!rows.length) { body.innerHTML = `<tr><td colspan="6" class="empty">Nenhum resultado</td></tr>`; return; }
+    body.innerHTML = rows.map(r => `
+      <tr>
+        <td><b>${escape(r.name)}</b></td>
+        <td style="color:var(--ink-soft);font-size:12px">${escape(deptNames(r.depts).join(' · ') || '—')}</td>
+        <td class="num">${r.total}</td>
+        <td class="num">${r.doing}</td>
+        <td class="num">${r.late ? `<span class="tag bad">${r.late}</span>` : '0'}</td>
+        <td class="num">${r.done}</td>
+      </tr>`).join('');
+  };
+  search.oninput = draw;
+  statusF.onchange = draw;
+  draw();
+}
+
+// ----- STATUS -----
+function renderStatus(tasks) {
+  const byStatus = {};
+  tasks.forEach(t => { byStatus[t.statusLabel] = (byStatus[t.statusLabel] || 0) + 1; });
+  destroy('statusbar');
+  charts.statusbar = new Chart(document.getElementById('chart-status-bar'), {
+    type: 'bar',
+    data: { labels: Object.keys(byStatus), datasets: [{ data: Object.values(byStatus), backgroundColor: CHART_COLORS, borderRadius: 4 }] },
+    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } }
+  });
+
+  // prio × status (stacked)
+  const prios = ['Baixa', 'Média', 'Alta'];
+  const statuses = [...new Set(tasks.map(t => t.statusLabel))];
+  const matrix = prios.map(p => statuses.map(s => tasks.filter(t => t.priorityLabel === p && t.statusLabel === s).length));
+  destroy('priostatus');
+  charts.priostatus = new Chart(document.getElementById('chart-prio-status'), {
+    type: 'bar',
+    data: {
+      labels: statuses,
+      datasets: prios.map((p, i) => ({ label: p, data: matrix[i], backgroundColor: CHART_COLORS[i+1], borderRadius: 3 }))
+    },
+    options: { plugins: { legend: { position: 'bottom' } }, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } } }
+  });
+
+  // tabela
+  const total = tasks.length || 1;
+  const body = document.querySelector('#tbl-status tbody');
+  body.innerHTML = Object.entries(byStatus).sort((a,b) => b[1]-a[1]).map(([k,v]) => `
+    <tr>
+      <td><span class="tag dot neutral">${escape(k)}</span></td>
+      <td class="num">${v}</td>
+      <td class="num">${((v/total)*100).toFixed(1)}%</td>
+      <td><div class="bar"><span style="width:${((v/total)*100).toFixed(1)}%"></span></div></td>
+    </tr>`).join('');
+}
+
+// ----- PRAZO -----
+function renderPrazo(tasks) {
+  const now = Date.now();
+  const cats = {
+    'Atrasadas': { count: 0, color: 'var(--bad)', desc: 'deadline já passou' },
+    'Hoje': { count: 0, color: 'var(--warn)', desc: 'vencem hoje' },
+    'Esta semana': { count: 0, color: 'var(--gold)', desc: 'próximos 7 dias' },
+    'Futuras': { count: 0, color: 'var(--ink-soft)', desc: 'além de 7 dias' },
+    'Sem prazo': { count: 0, color: 'var(--ink-faint)', desc: 'sem deadline cadastrado' },
+    'Concluídas': { count: 0, color: 'var(--ok)', desc: 'finalizadas' },
+  };
+  tasks.forEach(t => {
+    if (t.isClosed) { cats['Concluídas'].count++; return; }
+    if (!t.deadline) { cats['Sem prazo'].count++; return; }
+    const d = new Date(t.deadline).getTime();
+    if (d < now - 86400000) cats['Atrasadas'].count++;
+    else if (d < now + 86400000) cats['Hoje'].count++;
+    else if (d < now + 7*86400000) cats['Esta semana'].count++;
+    else cats['Futuras'].count++;
+  });
+  document.getElementById('prazo-cards').innerHTML = Object.entries(cats).map(([k,v]) => `
+    <div style="padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--bg);">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)">${k}</div>
+      <div style="font-family:'Fraunces',serif;font-size:36px;font-weight:700;color:${v.color};line-height:1;margin:6px 0">${v.count}</div>
+      <div style="font-size:12px;color:var(--ink-soft)">${v.desc}</div>
+    </div>`).join('');
+
+  // tabela atrasadas
+  const late = tasks
+    .filter(t => !t.isClosed && t.deadline && new Date(t.deadline) < new Date())
+    .map(t => ({ ...t, dias: -daysFromNow(t.deadline) }))
+    .sort((a,b) => b.dias - a.dias)
+    .slice(0, 50);
+  const body = document.querySelector('#tbl-atrasadas tbody');
+  if (!late.length) { body.innerHTML = `<tr><td colspan="5" class="empty">Nenhuma tarefa atrasada 🎉</td></tr>`; return; }
+  body.innerHTML = late.map(t => `
+    <tr>
+      <td class="truncate" title="${escape(t.title)}">${escape(t.title)}</td>
+      <td>${escape(t.responsibleName)}</td>
+      <td>${escape(t.groupName)}</td>
+      <td>${fmtDate(t.deadline)}</td>
+      <td class="num"><span class="tag bad">${t.dias} d</span></td>
+    </tr>`).join('');
+}
+
+// ----- PROJETOS -----
+function renderProjetos(tasks, groups) {
+  const now = Date.now();
+  const stats = {};
+  groups.forEach(g => stats[g.id] = { ...g, total: 0, doing: 0, late: 0, done: 0 });
+  tasks.forEach(t => {
+    const s = stats[t.groupId];
+    if (!s) return;
+    s.total++;
+    if (t.status === '3') s.doing++;
+    if (t.status === '5') s.done++;
+    if (!t.isClosed && t.deadline && new Date(t.deadline).getTime() < now) s.late++;
+  });
+  const all = Object.values(stats).sort((a,b) => b.total - a.total);
+  const input = document.getElementById('filter-proj');
+  const draw = () => {
+    const q = input.value.toLowerCase().trim();
+    const rows = q ? all.filter(r => r.name.toLowerCase().includes(q)) : all;
+    const body = document.querySelector('#tbl-projetos tbody');
+    if (!rows.length) { body.innerHTML = `<tr><td colspan="7" class="empty">Nenhum projeto</td></tr>`; return; }
+    body.innerHTML = rows.map(r => {
+      const owner = STATE.data.users[r.ownerId]?.name || '—';
+      const pct = r.total ? (r.done / r.total * 100) : 0;
+      return `<tr>
+        <td><b>${escape(r.name)}</b>${r.closed ? ' <span class="tag neutral">encerrado</span>' : ''}</td>
+        <td style="color:var(--ink-soft);font-size:12px">${escape(owner)}</td>
+        <td class="num">${r.total}</td>
+        <td class="num">${r.doing}</td>
+        <td class="num">${r.late ? `<span class="tag bad">${r.late}</span>` : '0'}</td>
+        <td class="num">${r.done}</td>
+        <td><div class="bar"><span style="width:${pct.toFixed(1)}%;background:var(--ok)"></span></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-faint)">${pct.toFixed(0)}%</span></td>
+      </tr>`;
+    }).join('');
+  };
+  input.oninput = draw;
+  draw();
+}
+
+// ----- TAREFAS -----
+function renderTarefas(tasks) {
+  const sel = document.getElementById('filter-task-status');
+  const groupSel = document.getElementById('filter-task-group');
+  const statuses = [...new Set(tasks.map(t => t.statusLabel))];
+  sel.innerHTML = '<option value="">todos status</option>' + statuses.map(s => `<option>${escape(s)}</option>`).join('');
+  const grps = [...new Set(tasks.map(t => t.groupName))].sort();
+  groupSel.innerHTML = '<option value="">todos projetos</option>' + grps.map(g => `<option>${escape(g)}</option>`).join('');
+
+  const input = document.getElementById('filter-task');
+  const draw = () => {
+    const q = input.value.toLowerCase().trim();
+    const sf = sel.value;
+    const gf = groupSel.value;
+    let rows = tasks;
+    if (q) rows = rows.filter(t => t.title.toLowerCase().includes(q) || t.responsibleName.toLowerCase().includes(q));
+    if (sf) rows = rows.filter(t => t.statusLabel === sf);
+    if (gf) rows = rows.filter(t => t.groupName === gf);
+    rows = rows.slice(0, 500);
+    const body = document.querySelector('#tbl-tarefas tbody');
+    if (!rows.length) { body.innerHTML = `<tr><td colspan="5" class="empty">Nenhum resultado</td></tr>`; return; }
+    body.innerHTML = rows.map(t => `
+      <tr>
+        <td class="truncate" title="${escape(t.title)}">${escape(t.title)}</td>
+        <td>${statusTag(t)}</td>
+        <td>${escape(t.responsibleName)}</td>
+        <td style="color:var(--ink-soft);font-size:12px">${escape(t.groupName)}</td>
+        <td>${fmtDate(t.deadline)}</td>
+      </tr>`).join('');
+  };
+  input.oninput = draw;
+  sel.onchange = draw;
+  groupSel.onchange = draw;
+  draw();
+}
+
+// ============================================================
+// Tabs
+// ============================================================
+document.getElementById('tabs').addEventListener('click', e => {
+  if (e.target.tagName !== 'BUTTON') return;
+  const tab = e.target.dataset.tab;
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b === e.target));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + tab));
+});
+
+loadData();
+// Recarrega a cada 5 min pra pegar o data.json atualizado pelo Action
+setInterval(loadData, 5 * 60 * 1000);
+</script>
+</body>
+</html>

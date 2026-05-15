@@ -1,0 +1,3826 @@
+{
+  "generatedAt": "2026-05-15T14:24:02.979756+00:00",
+  "counts": {
+    "users": 20,
+    "departments": 9,
+    "groups": 12,
+    "tasks": 180
+  },
+  "users": {
+    "10": {
+      "id": "10",
+      "name": "Ana Vasconcelos",
+      "email": "ana.vasconcelos@seplan.ce.gov.br",
+      "position": "Analista",
+      "departmentIds": [
+        "3"
+      ],
+      "photo": ""
+    },
+    "11": {
+      "id": "11",
+      "name": "Carlos Henrique Lima",
+      "email": "carlos.henrique.lima@seplan.ce.gov.br",
+      "position": "Coordenador",
+      "departmentIds": [
+        "6"
+      ],
+      "photo": ""
+    },
+    "12": {
+      "id": "12",
+      "name": "Mariana Souza",
+      "email": "mariana.souza@seplan.ce.gov.br",
+      "position": "Coordenador",
+      "departmentIds": [
+        "5"
+      ],
+      "photo": ""
+    },
+    "13": {
+      "id": "13",
+      "name": "Pedro Albuquerque",
+      "email": "pedro.albuquerque@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "3"
+      ],
+      "photo": ""
+    },
+    "14": {
+      "id": "14",
+      "name": "Juliana Castro",
+      "email": "juliana.castro@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "3"
+      ],
+      "photo": ""
+    },
+    "15": {
+      "id": "15",
+      "name": "Roberto Tavares",
+      "email": "roberto.tavares@seplan.ce.gov.br",
+      "position": "Analista",
+      "departmentIds": [
+        "8"
+      ],
+      "photo": ""
+    },
+    "16": {
+      "id": "16",
+      "name": "Patrícia Mendes",
+      "email": "patrícia.mendes@seplan.ce.gov.br",
+      "position": "Analista",
+      "departmentIds": [
+        "2"
+      ],
+      "photo": ""
+    },
+    "17": {
+      "id": "17",
+      "name": "Fernando Costa",
+      "email": "fernando.costa@seplan.ce.gov.br",
+      "position": "Coordenador",
+      "departmentIds": [
+        "5"
+      ],
+      "photo": ""
+    },
+    "18": {
+      "id": "18",
+      "name": "Beatriz Oliveira",
+      "email": "beatriz.oliveira@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "2"
+      ],
+      "photo": ""
+    },
+    "19": {
+      "id": "19",
+      "name": "Rafael Cordeiro",
+      "email": "rafael.cordeiro@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "5"
+      ],
+      "photo": ""
+    },
+    "20": {
+      "id": "20",
+      "name": "Luciana Freitas",
+      "email": "luciana.freitas@seplan.ce.gov.br",
+      "position": "Coordenador",
+      "departmentIds": [
+        "8"
+      ],
+      "photo": ""
+    },
+    "21": {
+      "id": "21",
+      "name": "Marcelo Ribeiro",
+      "email": "marcelo.ribeiro@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "9"
+      ],
+      "photo": ""
+    },
+    "22": {
+      "id": "22",
+      "name": "Camila Bezerra",
+      "email": "camila.bezerra@seplan.ce.gov.br",
+      "position": "Analista",
+      "departmentIds": [
+        "6"
+      ],
+      "photo": ""
+    },
+    "23": {
+      "id": "23",
+      "name": "Diego Sampaio",
+      "email": "diego.sampaio@seplan.ce.gov.br",
+      "position": "Técnico",
+      "departmentIds": [
+        "4"
+      ],
+      "photo": ""
+    },
+    "24": {
+      "id": "24",
+      "name": "Helena Cavalcante",
+      "email": "helena.cavalcante@seplan.ce.gov.br",
+      "position": "Assessor",
+      "departmentIds": [
+        "7"
+      ],
+      "photo": ""
+    },
+    "25": {
+      "id": "25",
+      "name": "Igor Pontes",
+      "email": "igor.pontes@seplan.ce.gov.br",
+      "position": "Coordenador",
+      "departmentIds": [
+        "4"
+      ],
+      "photo": ""
+    },
+    "26": {
+      "id": "26",
+      "name": "Joana Brito",
+      "email": "joana.brito@seplan.ce.gov.br",
+      "position": "Analista",
+      "departmentIds": [
+        "7"
+      ],
+      "photo": ""
+    },
+    "27": {
+      "id": "27",
+      "name": "Lucas Maia",
+      "email": "lucas.maia@seplan.ce.gov.br",
+      "position": "Técnico",
+      "departmentIds": [
+        "3"
+      ],
+      "photo": ""
+    },
+    "28": {
+      "id": "28",
+      "name": "Natália Bessa",
+      "email": "natália.bessa@seplan.ce.gov.br",
+      "position": "Assessor",
+      "departmentIds": [
+        "3"
+      ],
+      "photo": ""
+    },
+    "29": {
+      "id": "29",
+      "name": "Otávio Pinheiro",
+      "email": "otávio.pinheiro@seplan.ce.gov.br",
+      "position": "Gestor",
+      "departmentIds": [
+        "7"
+      ],
+      "photo": ""
+    }
+  },
+  "departments": {
+    "1": {
+      "id": "1",
+      "name": "Secretaria de Planejamento",
+      "parentId": null
+    },
+    "2": {
+      "id": "2",
+      "name": "Gabinete do Secretário",
+      "parentId": "1"
+    },
+    "3": {
+      "id": "3",
+      "name": "Coord. de Planejamento Estratégico",
+      "parentId": "1"
+    },
+    "4": {
+      "id": "4",
+      "name": "Coord. de Orçamento",
+      "parentId": "1"
+    },
+    "5": {
+      "id": "5",
+      "name": "Coord. de Monitoramento e Avaliação",
+      "parentId": "1"
+    },
+    "6": {
+      "id": "6",
+      "name": "Coord. de Tecnologia da Informação",
+      "parentId": "1"
+    },
+    "7": {
+      "id": "7",
+      "name": "Coord. de Gestão de Pessoas",
+      "parentId": "1"
+    },
+    "8": {
+      "id": "8",
+      "name": "Assessoria Jurídica",
+      "parentId": "2"
+    },
+    "9": {
+      "id": "9",
+      "name": "Assessoria de Comunicação",
+      "parentId": "2"
+    }
+  },
+  "groups": {
+    "100": {
+      "id": "100",
+      "name": "Plano Plurianual 2024-2027",
+      "description": "",
+      "ownerId": "18",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2024-12-31T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-28T14:24:02.979756+00:00",
+      "taskCount": 13
+    },
+    "101": {
+      "id": "101",
+      "name": "Monitoramento PPA",
+      "description": "",
+      "ownerId": "13",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-03-24T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-13T14:24:02.979756+00:00",
+      "taskCount": 16
+    },
+    "102": {
+      "id": "102",
+      "name": "Revisão LOA 2026",
+      "description": "",
+      "ownerId": "27",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2024-07-11T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-26T14:24:02.979756+00:00",
+      "taskCount": 15
+    },
+    "103": {
+      "id": "103",
+      "name": "Modernização Sistemas SEPLAN",
+      "description": "",
+      "ownerId": "21",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2026-02-03T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-14T14:24:02.979756+00:00",
+      "taskCount": 15
+    },
+    "104": {
+      "id": "104",
+      "name": "Capacitação Servidores",
+      "description": "",
+      "ownerId": "17",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2026-01-24T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-18T14:24:02.979756+00:00",
+      "taskCount": 14
+    },
+    "105": {
+      "id": "105",
+      "name": "Painel de Indicadores Estratégicos",
+      "description": "",
+      "ownerId": "17",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-03-22T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-07T14:24:02.979756+00:00",
+      "taskCount": 16
+    },
+    "106": {
+      "id": "106",
+      "name": "Convênios e Parcerias",
+      "description": "",
+      "ownerId": "24",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-04-07T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-10T14:24:02.979756+00:00",
+      "taskCount": 15
+    },
+    "107": {
+      "id": "107",
+      "name": "Auditoria Interna 2026",
+      "description": "",
+      "ownerId": "21",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2024-05-29T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-07T14:24:02.979756+00:00",
+      "taskCount": 16
+    },
+    "108": {
+      "id": "108",
+      "name": "Comunicação Institucional",
+      "description": "",
+      "ownerId": "12",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-10-22T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-28T14:24:02.979756+00:00",
+      "taskCount": 14
+    },
+    "109": {
+      "id": "109",
+      "name": "Programa de Integridade",
+      "description": "",
+      "ownerId": "17",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-03-23T14:24:02.979756+00:00",
+      "dateUpdate": "2026-05-07T14:24:02.979756+00:00",
+      "taskCount": 16
+    },
+    "110": {
+      "id": "110",
+      "name": "Transformação Digital",
+      "description": "",
+      "ownerId": "27",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2025-05-18T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-19T14:24:02.979756+00:00",
+      "taskCount": 16
+    },
+    "111": {
+      "id": "111",
+      "name": "Gestão de Contratos",
+      "description": "",
+      "ownerId": "11",
+      "closed": false,
+      "visible": true,
+      "opened": true,
+      "dateCreate": "2026-03-14T14:24:02.979756+00:00",
+      "dateUpdate": "2026-04-20T14:24:02.979756+00:00",
+      "taskCount": 14
+    }
+  },
+  "tasks": [
+    {
+      "id": "1000",
+      "title": "Responder ofício SEFAZ · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-01-26T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1001",
+      "title": "Análise de risco de programa · Modernização Sistemas SEPLAN",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-05-19T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-19T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1002",
+      "title": "Mapear processos da unidade · Painel de Indicadores Estratégicos",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-10-07T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1003",
+      "title": "Configurar BI · Revisão LOA 2026",
+      "status": "7",
+      "statusLabel": "Recusada",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2025-09-14T14:24:02.979756+00:00",
+      "closedDate": "2025-09-23T14:24:02.979756+00:00",
+      "createdDate": "2025-09-04T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1004",
+      "title": "Diagnóstico organizacional · Auditoria Interna 2026",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-04-20T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-13T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1005",
+      "title": "Configurar BI · Capacitação Servidores",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2026-06-05T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-05-09T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1006",
+      "title": "Diagnóstico organizacional · Revisão LOA 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-05-19T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-02-23T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1007",
+      "title": "Validar metas com coordenação · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-02-09T14:24:02.979756+00:00",
+      "closedDate": "2026-02-13T14:24:02.979756+00:00",
+      "createdDate": "2025-12-13T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1008",
+      "title": "Construir cronograma do PPA · Painel de Indicadores Estratégicos",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-08-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1009",
+      "title": "Consolidar dados orçamentários · Monitoramento PPA",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-04-29T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-08T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1010",
+      "title": "Construir cronograma do PPA · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2025-10-08T14:24:02.979756+00:00",
+      "closedDate": "2025-10-14T14:24:02.979756+00:00",
+      "createdDate": "2025-08-15T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1011",
+      "title": "Reunião com órgão parceiro · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-10-16T14:24:02.979756+00:00",
+      "closedDate": "2025-10-13T14:24:02.979756+00:00",
+      "createdDate": "2025-08-17T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1012",
+      "title": "Revisar plano de ação · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-07-21T14:24:02.979756+00:00",
+      "closedDate": "2025-07-20T14:24:02.979756+00:00",
+      "createdDate": "2025-06-05T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1013",
+      "title": "Mapear processos da unidade · Programa de Integridade",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-09T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1014",
+      "title": "Consolidar dados orçamentários · Painel de Indicadores Estratégicos",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-03-18T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-14T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1015",
+      "title": "Construir cronograma do PPA · Programa de Integridade",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-05-06T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-08T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1016",
+      "title": "Auditar prestação de contas · Painel de Indicadores Estratégicos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-05-08T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-18T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1017",
+      "title": "Levantar requisitos do sistema · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-08-12T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1018",
+      "title": "Revisar plano de ação · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-04-09T14:24:02.979756+00:00",
+      "closedDate": "2026-04-13T14:24:02.979756+00:00",
+      "createdDate": "2026-03-20T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1019",
+      "title": "Análise de risco de programa · Auditoria Interna 2026",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-03-16T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-20T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1020",
+      "title": "Auditar prestação de contas · Revisão LOA 2026",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-06-02T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-11T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1021",
+      "title": "Elaborar relatório trimestral · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-10-21T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1022",
+      "title": "Construir cronograma do PPA · Transformação Digital",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-05-16T00:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-24T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1023",
+      "title": "Responder ofício SEFAZ · Gestão de Contratos",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-07-30T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-15T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1024",
+      "title": "Revisar minuta de portaria · Revisão LOA 2026",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-08-30T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1025",
+      "title": "Preparar apresentação para o Secretário · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-02-17T14:24:02.979756+00:00",
+      "closedDate": "2026-02-25T14:24:02.979756+00:00",
+      "createdDate": "2026-02-08T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1026",
+      "title": "Auditar prestação de contas · Monitoramento PPA",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2025-09-03T14:24:02.979756+00:00",
+      "closedDate": "2025-09-12T14:24:02.979756+00:00",
+      "createdDate": "2025-07-22T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1027",
+      "title": "Treinar equipe no novo sistema · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2025-12-25T14:24:02.979756+00:00",
+      "closedDate": "2025-12-29T14:24:02.979756+00:00",
+      "createdDate": "2025-12-04T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1028",
+      "title": "Migrar dados legados · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "10",
+      "responsibleName": "Ana Vasconcelos",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-05-17T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1029",
+      "title": "Atualizar painel de indicadores · Capacitação Servidores",
+      "status": "7",
+      "statusLabel": "Recusada",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2026-05-16T14:24:02.979756+00:00",
+      "closedDate": "2026-05-20T14:24:02.979756+00:00",
+      "createdDate": "2026-04-07T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1030",
+      "title": "Análise de risco de programa · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-02-06T14:24:02.979756+00:00",
+      "closedDate": "2026-02-07T14:24:02.979756+00:00",
+      "createdDate": "2026-01-09T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1031",
+      "title": "Aprovar minuta de decreto · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-07-22T14:24:02.979756+00:00",
+      "closedDate": "2025-08-01T14:24:02.979756+00:00",
+      "createdDate": "2025-06-14T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1032",
+      "title": "Treinar equipe no novo sistema · Revisão LOA 2026",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-05-08T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-30T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1033",
+      "title": "Construir cronograma do PPA · Comunicação Institucional",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-04-04T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-20T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1034",
+      "title": "Elaborar relatório trimestral · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-04-17T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-18T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1035",
+      "title": "Auditar prestação de contas · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-04-16T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-31T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1036",
+      "title": "Análise de risco de programa · Programa de Integridade",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2025-06-09T14:24:02.979756+00:00",
+      "closedDate": "2025-06-18T14:24:02.979756+00:00",
+      "createdDate": "2025-05-26T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1037",
+      "title": "Aprovar minuta de decreto · Modernização Sistemas SEPLAN",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-05-17T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-08T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1038",
+      "title": "Atualizar painel de indicadores · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-08-01T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1039",
+      "title": "Validar metas com coordenação · Plano Plurianual 2024-2027",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-04-17T14:24:02.979756+00:00",
+      "closedDate": "2026-04-22T14:24:02.979756+00:00",
+      "createdDate": "2026-02-20T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1040",
+      "title": "Preparar apresentação para o Secretário · Revisão LOA 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2025-12-11T14:24:02.979756+00:00",
+      "closedDate": "2025-12-14T14:24:02.979756+00:00",
+      "createdDate": "2025-10-16T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1041",
+      "title": "Publicar matéria no portal · Painel de Indicadores Estratégicos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-03-23T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1042",
+      "title": "Treinar equipe no novo sistema · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-01-26T14:24:02.979756+00:00",
+      "closedDate": "2026-01-30T14:24:02.979756+00:00",
+      "createdDate": "2026-01-20T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1043",
+      "title": "Elaborar relatório trimestral · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-01-19T14:24:02.979756+00:00",
+      "closedDate": "2026-01-17T14:24:02.979756+00:00",
+      "createdDate": "2025-12-23T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1044",
+      "title": "Migrar dados legados · Monitoramento PPA",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-06-24T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-02-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1045",
+      "title": "Reorganizar arquivo digital · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-05-21T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-05T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1046",
+      "title": "Aprovar minuta de decreto · Transformação Digital",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-03-16T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-03T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1047",
+      "title": "Aprovar minuta de decreto · Painel de Indicadores Estratégicos",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-06-08T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1048",
+      "title": "Levantar requisitos do sistema · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-01-18T14:24:02.979756+00:00",
+      "closedDate": "2026-01-19T14:24:02.979756+00:00",
+      "createdDate": "2025-12-12T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1049",
+      "title": "Reorganizar arquivo digital · Programa de Integridade",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-03-08T14:24:02.979756+00:00",
+      "closedDate": "2026-03-06T14:24:02.979756+00:00",
+      "createdDate": "2026-02-05T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1050",
+      "title": "Migrar dados legados · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-05-15T08:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-05-14T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1051",
+      "title": "Validar metas com coordenação · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2025-11-17T14:24:02.979756+00:00",
+      "closedDate": "2025-11-21T14:24:02.979756+00:00",
+      "createdDate": "2025-09-30T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1052",
+      "title": "Aprovar minuta de decreto · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2025-07-24T14:24:02.979756+00:00",
+      "closedDate": "2025-07-24T14:24:02.979756+00:00",
+      "createdDate": "2025-06-09T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1053",
+      "title": "Consolidar dados orçamentários · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-29T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-02-28T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1054",
+      "title": "Levantar requisitos do sistema · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-03-31T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-24T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1055",
+      "title": "Mapear processos da unidade · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1056",
+      "title": "Revisar plano de ação · Monitoramento PPA",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-05-21T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1057",
+      "title": "Revisar plano de ação · Painel de Indicadores Estratégicos",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-08-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1058",
+      "title": "Construir cronograma do PPA · Gestão de Contratos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2025-09-30T14:24:02.979756+00:00",
+      "closedDate": "2025-09-26T14:24:02.979756+00:00",
+      "createdDate": "2025-08-29T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1059",
+      "title": "Configurar BI · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-05-16T02:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1060",
+      "title": "Consolidar dados orçamentários · Comunicação Institucional",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-04-23T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-19T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1061",
+      "title": "Auditar prestação de contas · Convênios e Parcerias",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-05-01T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-05-24T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1062",
+      "title": "Elaborar relatório trimestral · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-18T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-13T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1063",
+      "title": "Levantar requisitos do sistema · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-12-06T14:24:02.979756+00:00",
+      "closedDate": "2025-12-16T14:24:02.979756+00:00",
+      "createdDate": "2025-11-01T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1064",
+      "title": "Treinar equipe no novo sistema · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2025-11-20T14:24:02.979756+00:00",
+      "closedDate": "2025-11-23T14:24:02.979756+00:00",
+      "createdDate": "2025-10-12T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1065",
+      "title": "Atualizar painel de indicadores · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-07-12T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-23T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1066",
+      "title": "Auditar prestação de contas · Transformação Digital",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-05-25T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-25T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1067",
+      "title": "Responder ofício SEFAZ · Auditoria Interna 2026",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-05-15T12:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-19T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1068",
+      "title": "Construir cronograma do PPA · Monitoramento PPA",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-07-14T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-23T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1069",
+      "title": "Mapear processos da unidade · Plano Plurianual 2024-2027",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-05-10T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1070",
+      "title": "Reunião com órgão parceiro · Programa de Integridade",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-14T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-02-25T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1071",
+      "title": "Publicar matéria no portal · Revisão LOA 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-04-06T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-07T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1072",
+      "title": "Reunião com órgão parceiro · Gestão de Contratos",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-07-09T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-06T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1073",
+      "title": "Migrar dados legados · Transformação Digital",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "19",
+      "responsibleName": "Rafael Cordeiro",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-03-31T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-27T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1074",
+      "title": "Auditar prestação de contas · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-09-22T14:24:02.979756+00:00",
+      "closedDate": "2025-10-01T14:24:02.979756+00:00",
+      "createdDate": "2025-07-29T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1075",
+      "title": "Preparar apresentação para o Secretário · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2025-07-13T14:24:02.979756+00:00",
+      "closedDate": "2025-07-23T14:24:02.979756+00:00",
+      "createdDate": "2025-06-17T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1076",
+      "title": "Diagnóstico organizacional · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-07-16T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-21T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1077",
+      "title": "Reorganizar arquivo digital · Gestão de Contratos",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-07-20T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1078",
+      "title": "Reorganizar arquivo digital · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-05-15T16:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-03-31T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1079",
+      "title": "Reunião com órgão parceiro · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-06-05T14:24:02.979756+00:00",
+      "closedDate": "2026-06-05T14:24:02.979756+00:00",
+      "createdDate": "2026-04-30T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1080",
+      "title": "Elaborar relatório trimestral · Comunicação Institucional",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-12-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1081",
+      "title": "Construir cronograma do PPA · Modernização Sistemas SEPLAN",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-07-23T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-01-11T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1082",
+      "title": "Mapear processos da unidade · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-05-16T14:24:02.979756+00:00",
+      "closedDate": "2026-05-17T14:24:02.979756+00:00",
+      "createdDate": "2026-05-06T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1083",
+      "title": "Análise de risco de programa · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-07-05T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-14T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1084",
+      "title": "Reunião com órgão parceiro · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-05-15T09:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-27T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1085",
+      "title": "Reorganizar arquivo digital · Capacitação Servidores",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2026-05-01T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-05-26T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1086",
+      "title": "Mapear processos da unidade · Capacitação Servidores",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-12-21T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1087",
+      "title": "Análise de risco de programa · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-05-19T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-05-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1088",
+      "title": "Elaborar relatório trimestral · Monitoramento PPA",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-06-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1089",
+      "title": "Construir cronograma do PPA · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-10-27T14:24:02.979756+00:00",
+      "closedDate": "2025-11-01T14:24:02.979756+00:00",
+      "createdDate": "2025-10-01T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1090",
+      "title": "Atualizar painel de indicadores · Revisão LOA 2026",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-04-04T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-05T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1091",
+      "title": "Migrar dados legados · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-04-21T14:24:02.979756+00:00",
+      "closedDate": "2026-04-28T14:24:02.979756+00:00",
+      "createdDate": "2026-04-01T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1092",
+      "title": "Reorganizar arquivo digital · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-09-18T14:24:02.979756+00:00",
+      "closedDate": "2025-09-14T14:24:02.979756+00:00",
+      "createdDate": "2025-08-20T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1093",
+      "title": "Reunião com órgão parceiro · Transformação Digital",
+      "status": "7",
+      "statusLabel": "Recusada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2025-07-09T14:24:02.979756+00:00",
+      "closedDate": "2025-07-16T14:24:02.979756+00:00",
+      "createdDate": "2025-07-01T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1094",
+      "title": "Auditar prestação de contas · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-05-10T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-01-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1095",
+      "title": "Revisar plano de ação · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "19",
+      "responsibleName": "Rafael Cordeiro",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-04-26T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1096",
+      "title": "Reunião com órgão parceiro · Transformação Digital",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-08-10T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-30T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1097",
+      "title": "Revisar minuta de portaria · Monitoramento PPA",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-04-27T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1098",
+      "title": "Revisar plano de ação · Monitoramento PPA",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-07-27T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1099",
+      "title": "Migrar dados legados · Monitoramento PPA",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-02-01T14:24:02.979756+00:00",
+      "closedDate": "2026-01-27T14:24:02.979756+00:00",
+      "createdDate": "2025-12-26T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1100",
+      "title": "Aprovar minuta de decreto · Modernização Sistemas SEPLAN",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-05-25T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-30T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1101",
+      "title": "Validar metas com coordenação · Plano Plurianual 2024-2027",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-06-26T14:24:02.979756+00:00",
+      "closedDate": "2026-06-28T14:24:02.979756+00:00",
+      "createdDate": "2026-05-04T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1102",
+      "title": "Construir cronograma do PPA · Transformação Digital",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-04-07T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-23T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1103",
+      "title": "Responder ofício SEFAZ · Revisão LOA 2026",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-05-15T23:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1104",
+      "title": "Revisar plano de ação · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-06-09T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1105",
+      "title": "Elaborar relatório trimestral · Comunicação Institucional",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-03-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1106",
+      "title": "Migrar dados legados · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2025-10-23T14:24:02.979756+00:00",
+      "closedDate": "2025-10-27T14:24:02.979756+00:00",
+      "createdDate": "2025-10-15T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1107",
+      "title": "Publicar matéria no portal · Revisão LOA 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-05-06T14:24:02.979756+00:00",
+      "closedDate": "2026-05-08T14:24:02.979756+00:00",
+      "createdDate": "2026-04-18T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1108",
+      "title": "Validar metas com coordenação · Modernização Sistemas SEPLAN",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-04-04T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-03-13T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1109",
+      "title": "Preparar apresentação para o Secretário · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-03-22T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-18T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1110",
+      "title": "Construir cronograma do PPA · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-01-22T14:24:02.979756+00:00",
+      "closedDate": "2026-01-24T14:24:02.979756+00:00",
+      "createdDate": "2025-12-16T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1111",
+      "title": "Atualizar painel de indicadores · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-04-06T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-30T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1112",
+      "title": "Publicar matéria no portal · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "10",
+      "responsibleName": "Ana Vasconcelos",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-11-09T14:24:02.979756+00:00",
+      "closedDate": "2025-11-11T14:24:02.979756+00:00",
+      "createdDate": "2025-10-14T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1113",
+      "title": "Construir cronograma do PPA · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-07-17T14:24:02.979756+00:00",
+      "closedDate": "2025-07-23T14:24:02.979756+00:00",
+      "createdDate": "2025-06-11T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1114",
+      "title": "Mapear processos da unidade · Gestão de Contratos",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2026-05-19T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-09T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1115",
+      "title": "Levantar requisitos do sistema · Gestão de Contratos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2025-10-23T14:24:02.979756+00:00",
+      "closedDate": "2025-10-23T14:24:02.979756+00:00",
+      "createdDate": "2025-10-16T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1116",
+      "title": "Atualizar painel de indicadores · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-06-15T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1117",
+      "title": "Diagnóstico organizacional · Monitoramento PPA",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-03-24T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1118",
+      "title": "Treinar equipe no novo sistema · Auditoria Interna 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-04-02T14:24:02.979756+00:00",
+      "closedDate": "2026-04-08T14:24:02.979756+00:00",
+      "createdDate": "2026-03-02T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1119",
+      "title": "Responder ofício SEFAZ · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-04-23T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-16T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1120",
+      "title": "Mapear processos da unidade · Monitoramento PPA",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2025-11-06T14:24:02.979756+00:00",
+      "closedDate": "2025-11-15T14:24:02.979756+00:00",
+      "createdDate": "2025-09-07T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1121",
+      "title": "Configurar BI · Monitoramento PPA",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-03-11T14:24:02.979756+00:00",
+      "closedDate": "2026-03-19T14:24:02.979756+00:00",
+      "createdDate": "2026-01-18T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1122",
+      "title": "Responder ofício SEFAZ · Plano Plurianual 2024-2027",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "10",
+      "responsibleName": "Ana Vasconcelos",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2026-04-08T14:24:02.979756+00:00",
+      "closedDate": "2026-04-09T14:24:02.979756+00:00",
+      "createdDate": "2026-02-18T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1123",
+      "title": "Auditar prestação de contas · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-12-06T14:24:02.979756+00:00",
+      "closedDate": "2025-12-12T14:24:02.979756+00:00",
+      "createdDate": "2025-11-04T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1124",
+      "title": "Migrar dados legados · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-03-04T14:24:02.979756+00:00",
+      "closedDate": "2026-03-12T14:24:02.979756+00:00",
+      "createdDate": "2026-02-16T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1125",
+      "title": "Treinar equipe no novo sistema · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2025-08-03T14:24:02.979756+00:00",
+      "closedDate": "2025-08-06T14:24:02.979756+00:00",
+      "createdDate": "2025-07-20T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1126",
+      "title": "Consolidar dados orçamentários · Revisão LOA 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-09-18T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1127",
+      "title": "Publicar matéria no portal · Auditoria Interna 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "107",
+      "groupName": "Auditoria Interna 2026",
+      "deadline": "2026-05-15T15:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-18T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1128",
+      "title": "Reorganizar arquivo digital · Painel de Indicadores Estratégicos",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-04-20T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-09T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1129",
+      "title": "Elaborar relatório trimestral · Capacitação Servidores",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-03T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1130",
+      "title": "Migrar dados legados · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "19",
+      "responsibleName": "Rafael Cordeiro",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-06-01T14:24:02.979756+00:00",
+      "closedDate": "2026-05-27T14:24:02.979756+00:00",
+      "createdDate": "2026-04-19T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1131",
+      "title": "Preparar apresentação para o Secretário · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-03-22T14:24:02.979756+00:00",
+      "closedDate": "2026-03-24T14:24:02.979756+00:00",
+      "createdDate": "2026-02-06T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1132",
+      "title": "Conferir contratos vigentes · Programa de Integridade",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-01-31T14:24:02.979756+00:00",
+      "closedDate": "2026-01-27T14:24:02.979756+00:00",
+      "createdDate": "2025-12-07T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1133",
+      "title": "Atualizar painel de indicadores · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-01-08T14:24:02.979756+00:00",
+      "closedDate": "2026-01-05T14:24:02.979756+00:00",
+      "createdDate": "2025-12-14T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1134",
+      "title": "Construir cronograma do PPA · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-12-16T14:24:02.979756+00:00",
+      "closedDate": "2025-12-18T14:24:02.979756+00:00",
+      "createdDate": "2025-11-08T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1135",
+      "title": "Mapear processos da unidade · Revisão LOA 2026",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-07-20T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-22T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1136",
+      "title": "Elaborar relatório trimestral · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2025-12-21T14:24:02.979756+00:00",
+      "closedDate": "2025-12-20T14:24:02.979756+00:00",
+      "createdDate": "2025-10-23T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1137",
+      "title": "Configurar BI · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-06-24T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-07T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1138",
+      "title": "Responder ofício SEFAZ · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "29",
+      "responsibleName": "Otávio Pinheiro",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-02-19T14:24:02.979756+00:00",
+      "closedDate": "2026-03-01T14:24:02.979756+00:00",
+      "createdDate": "2026-01-15T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1139",
+      "title": "Auditar prestação de contas · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "19",
+      "responsibleName": "Rafael Cordeiro",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-05-27T14:24:02.979756+00:00",
+      "closedDate": "2026-05-23T14:24:02.979756+00:00",
+      "createdDate": "2026-04-12T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1140",
+      "title": "Mapear processos da unidade · Monitoramento PPA",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-05-15T17:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-04-25T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1141",
+      "title": "Atualizar painel de indicadores · Gestão de Contratos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "111",
+      "groupName": "Gestão de Contratos",
+      "deadline": "2025-10-22T14:24:02.979756+00:00",
+      "closedDate": "2025-10-19T14:24:02.979756+00:00",
+      "createdDate": "2025-09-24T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1142",
+      "title": "Conferir contratos vigentes · Plano Plurianual 2024-2027",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2025-10-20T14:24:02.979756+00:00",
+      "closedDate": "2025-10-17T14:24:02.979756+00:00",
+      "createdDate": "2025-09-06T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1143",
+      "title": "Conferir contratos vigentes · Transformação Digital",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-01-14T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1144",
+      "title": "Revisar plano de ação · Monitoramento PPA",
+      "status": "4",
+      "statusLabel": "Aguardando controle",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-04-27T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1145",
+      "title": "Mapear processos da unidade · Painel de Indicadores Estratégicos",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-05-24T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-21T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1146",
+      "title": "Mapear processos da unidade · Modernização Sistemas SEPLAN",
+      "status": "7",
+      "statusLabel": "Recusada",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-02-07T14:24:02.979756+00:00",
+      "closedDate": "2026-02-11T14:24:02.979756+00:00",
+      "createdDate": "2026-01-29T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1147",
+      "title": "Análise de risco de programa · Revisão LOA 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-03-21T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-13T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1148",
+      "title": "Conferir contratos vigentes · Plano Plurianual 2024-2027",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "14",
+      "responsibleName": "Juliana Castro",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2025-06-10T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1149",
+      "title": "Atualizar painel de indicadores · Plano Plurianual 2024-2027",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "18",
+      "responsibleName": "Beatriz Oliveira",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "100",
+      "groupName": "Plano Plurianual 2024-2027",
+      "deadline": "2025-12-06T14:24:02.979756+00:00",
+      "closedDate": "2025-12-11T14:24:02.979756+00:00",
+      "createdDate": "2025-11-30T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1150",
+      "title": "Reorganizar arquivo digital · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-05-17T14:24:02.979756+00:00",
+      "closedDate": "2026-05-13T14:24:02.979756+00:00",
+      "createdDate": "2026-04-12T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1151",
+      "title": "Revisar plano de ação · Capacitação Servidores",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2026-03-25T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-04T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1152",
+      "title": "Preparar apresentação para o Secretário · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2025-11-09T14:24:02.979756+00:00",
+      "closedDate": "2025-11-07T14:24:02.979756+00:00",
+      "createdDate": "2025-09-11T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1153",
+      "title": "Atualizar painel de indicadores · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-04-07T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1154",
+      "title": "Diagnóstico organizacional · Programa de Integridade",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "22",
+      "responsibleName": "Camila Bezerra",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-07-02T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-24T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1155",
+      "title": "Configurar BI · Transformação Digital",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-03-31T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-10-06T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1156",
+      "title": "Responder ofício SEFAZ · Convênios e Parcerias",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-02-25T14:24:02.979756+00:00",
+      "closedDate": "2026-02-21T14:24:02.979756+00:00",
+      "createdDate": "2026-01-24T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1157",
+      "title": "Treinar equipe no novo sistema · Transformação Digital",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-04-21T14:24:02.979756+00:00",
+      "closedDate": "2026-04-18T14:24:02.979756+00:00",
+      "createdDate": "2026-03-27T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1158",
+      "title": "Auditar prestação de contas · Monitoramento PPA",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-03-22T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-09-14T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1159",
+      "title": "Responder ofício SEFAZ · Comunicação Institucional",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "27",
+      "responsibleName": "Lucas Maia",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2026-08-05T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-03-09T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1160",
+      "title": "Migrar dados legados · Capacitação Servidores",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "11",
+      "responsibleName": "Carlos Henrique Lima",
+      "responsibleDepartments": [
+        "6"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2025-07-31T14:24:02.979756+00:00",
+      "closedDate": "2025-07-28T14:24:02.979756+00:00",
+      "createdDate": "2025-06-08T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1161",
+      "title": "Preparar apresentação para o Secretário · Modernização Sistemas SEPLAN",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "25",
+      "responsibleName": "Igor Pontes",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-04-02T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-28T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1162",
+      "title": "Análise de risco de programa · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "17",
+      "responsibleName": "Fernando Costa",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-08-03T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-03-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1163",
+      "title": "Aprovar minuta de decreto · Programa de Integridade",
+      "status": "6",
+      "statusLabel": "Adiada",
+      "priority": "2",
+      "priorityLabel": "Alta",
+      "responsibleId": "10",
+      "responsibleName": "Ana Vasconcelos",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-08-01T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-04T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1164",
+      "title": "Elaborar relatório trimestral · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2026-03-05T14:24:02.979756+00:00",
+      "closedDate": "2026-03-06T14:24:02.979756+00:00",
+      "createdDate": "2026-02-11T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1165",
+      "title": "Diagnóstico organizacional · Monitoramento PPA",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "10",
+      "responsibleName": "Ana Vasconcelos",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "101",
+      "groupName": "Monitoramento PPA",
+      "deadline": "2026-05-18T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1166",
+      "title": "Migrar dados legados · Programa de Integridade",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-25T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-21T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1167",
+      "title": "Revisar plano de ação · Capacitação Servidores",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "104",
+      "groupName": "Capacitação Servidores",
+      "deadline": "2026-05-28T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2026-02-23T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1168",
+      "title": "Preparar apresentação para o Secretário · Comunicação Institucional",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "16",
+      "responsibleName": "Patrícia Mendes",
+      "responsibleDepartments": [
+        "2"
+      ],
+      "groupId": "108",
+      "groupName": "Comunicação Institucional",
+      "deadline": "2025-10-31T14:24:02.979756+00:00",
+      "closedDate": "2025-11-02T14:24:02.979756+00:00",
+      "createdDate": "2025-09-30T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1169",
+      "title": "Publicar matéria no portal · Transformação Digital",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "26",
+      "responsibleName": "Joana Brito",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "110",
+      "groupName": "Transformação Digital",
+      "deadline": "2026-07-23T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-06-01T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1170",
+      "title": "Atualizar painel de indicadores · Modernização Sistemas SEPLAN",
+      "status": "1",
+      "statusLabel": "Nova",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "19",
+      "responsibleName": "Rafael Cordeiro",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-05-01T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-07-12T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1171",
+      "title": "Atualizar painel de indicadores · Revisão LOA 2026",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Diego Sampaio",
+      "responsibleDepartments": [
+        "4"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-03-19T14:24:02.979756+00:00",
+      "closedDate": "2026-03-14T14:24:02.979756+00:00",
+      "createdDate": "2026-03-14T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1172",
+      "title": "Revisar minuta de portaria · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "12",
+      "responsibleName": "Mariana Souza",
+      "responsibleDepartments": [
+        "5"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": "2026-07-06T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-08-31T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1173",
+      "title": "Reorganizar arquivo digital · Convênios e Parcerias",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "28",
+      "responsibleName": "Natália Bessa",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "106",
+      "groupName": "Convênios e Parcerias",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-04-05T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1174",
+      "title": "Migrar dados legados · Revisão LOA 2026",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "102",
+      "groupName": "Revisão LOA 2026",
+      "deadline": "2026-05-13T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-12-17T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1175",
+      "title": "Auditar prestação de contas · Modernização Sistemas SEPLAN",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "13",
+      "responsibleName": "Pedro Albuquerque",
+      "responsibleDepartments": [
+        "3"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2026-03-21T14:24:02.979756+00:00",
+      "closedDate": null,
+      "createdDate": "2025-11-10T14:24:02.979756+00:00",
+      "isClosed": false
+    },
+    {
+      "id": "1176",
+      "title": "Responder ofício SEFAZ · Modernização Sistemas SEPLAN",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "20",
+      "responsibleName": "Luciana Freitas",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "103",
+      "groupName": "Modernização Sistemas SEPLAN",
+      "deadline": "2025-12-23T14:24:02.979756+00:00",
+      "closedDate": "2025-12-24T14:24:02.979756+00:00",
+      "createdDate": "2025-10-24T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1177",
+      "title": "Configurar BI · Painel de Indicadores Estratégicos",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "0",
+      "priorityLabel": "Baixa",
+      "responsibleId": "21",
+      "responsibleName": "Marcelo Ribeiro",
+      "responsibleDepartments": [
+        "9"
+      ],
+      "groupId": "105",
+      "groupName": "Painel de Indicadores Estratégicos",
+      "deadline": "2025-07-06T14:24:02.979756+00:00",
+      "closedDate": "2025-07-10T14:24:02.979756+00:00",
+      "createdDate": "2025-06-24T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1178",
+      "title": "Atualizar painel de indicadores · Programa de Integridade",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "15",
+      "responsibleName": "Roberto Tavares",
+      "responsibleDepartments": [
+        "8"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-03-22T14:24:02.979756+00:00",
+      "closedDate": "2026-03-26T14:24:02.979756+00:00",
+      "createdDate": "2026-03-01T14:24:02.979756+00:00",
+      "isClosed": true
+    },
+    {
+      "id": "1179",
+      "title": "Reorganizar arquivo digital · Programa de Integridade",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "24",
+      "responsibleName": "Helena Cavalcante",
+      "responsibleDepartments": [
+        "7"
+      ],
+      "groupId": "109",
+      "groupName": "Programa de Integridade",
+      "deadline": "2026-04-08T14:24:02.979756+00:00",
+      "closedDate": "2026-04-03T14:24:02.979756+00:00",
+      "createdDate": "2026-02-13T14:24:02.979756+00:00",
+      "isClosed": true
+    }
+  ]
+}
