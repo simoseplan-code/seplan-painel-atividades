@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-17T07:59:17.494Z",
+  "generatedAt": "2026-05-17T11:44:13.402Z",
   "counts": {
     "users": 91,
     "departments": 30,
     "groups": 19,
-    "tasks": 2760
+    "tasks": 2761
   },
   "users": {
     "1": {
@@ -1228,7 +1228,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 149
+      "taskCount": 150
     },
     "47": {
       "id": "47",
@@ -1328,6 +1328,26 @@
     }
   },
   "tasks": [
+    {
+      "id": "8341",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17,
+        23
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-17T08:30:00-03:00",
+      "isClosed": false
+    },
     {
       "id": "8339",
       "title": "PROSPECÇÕES DIÁRIAS",
