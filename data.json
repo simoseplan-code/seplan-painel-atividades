@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-17T22:39:35.276Z",
+  "generatedAt": "2026-05-18T12:06:22.134Z",
   "counts": {
     "users": 91,
     "departments": 30,
     "groups": 19,
-    "tasks": 2761
+    "tasks": 2763
   },
   "users": {
     "1": {
@@ -1228,7 +1228,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 150
+      "taskCount": 151
     },
     "47": {
       "id": "47",
@@ -1288,7 +1288,7 @@
       "opened": false,
       "dateCreate": "2026-03-27T16:05:00+03:00",
       "dateUpdate": "2026-03-27T16:05:00+03:00",
-      "taskCount": 4
+      "taskCount": 5
     },
     "57": {
       "id": "57",
@@ -1328,6 +1328,45 @@
     }
   },
   "tasks": [
+    {
+      "id": "8345",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17,
+        23
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-18T08:30:00-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8343",
+      "title": "(1.8) SCR -Conta de produção: envio, pelas equipes estaduais, das primeiras críticas dos resultados da fonte \nCENSOAGRO.",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "143",
+      "responsibleName": "João Vitor Araújo",
+      "responsibleDepartments": [
+        69
+      ],
+      "groupId": "55",
+      "groupName": "Contas Regionais - PIB Estadual e Municipal do Piauí",
+      "deadline": "2026-05-22T13:30:00-03:00",
+      "closedDate": null,
+      "createdDate": "2026-05-18T08:11:23-03:00",
+      "isClosed": false
+    },
     {
       "id": "8341",
       "title": "PROSPECÇÕES DIÁRIAS",
@@ -12919,8 +12958,8 @@
     {
       "id": "7177",
       "title": "(1.5) SCR -Conta de produção: envio, pelo IBGE, para validação e complementação fontes: BALANCO, BALANCOGAS e AGUA_ESGOTO.",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "0",
       "priorityLabel": "Baixa",
       "responsibleId": "145",
@@ -12931,9 +12970,9 @@
       "groupId": "55",
       "groupName": "Contas Regionais - PIB Estadual e Municipal do Piauí",
       "deadline": "2026-05-20T13:30:00-03:00",
-      "closedDate": null,
+      "closedDate": "2026-05-18T08:07:49-03:00",
       "createdDate": "2026-04-15T09:12:02-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "7175",
