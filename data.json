@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-18T12:06:22.134Z",
+  "generatedAt": "2026-05-18T18:25:48.491Z",
   "counts": {
     "users": 91,
     "departments": 30,
     "groups": 19,
-    "tasks": 2763
+    "tasks": 2749
   },
   "users": {
     "1": {
@@ -1216,7 +1216,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 1993
+      "taskCount": 2005
     },
     "39": {
       "id": "39",
@@ -1228,7 +1228,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 151
+      "taskCount": 154
     },
     "47": {
       "id": "47",
@@ -1329,10 +1329,283 @@
   },
   "tasks": [
     {
-      "id": "8345",
-      "title": "PROSPECÇÕES DIÁRIAS",
+      "id": "8375",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:31-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8373",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:21-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8371",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:16-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8369",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:11-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8367",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:06-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8365",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:29-03:00",
+      "createdDate": "2026-05-18T10:47:01-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8363",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:56-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8361",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:49-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8359",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:44-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8357",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:35-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8355",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:29-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8353",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
+      "createdDate": "2026-05-18T10:46:22-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8351",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
       "status": "2",
       "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "109",
+      "responsibleName": "João Victor Melo",
+      "responsibleDepartments": [
+        1,
+        17,
+        23
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-18T10:30:00-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8349",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1344,9 +1617,50 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
+      "closedDate": "2026-05-18T11:05:18-03:00",
+      "createdDate": "2026-05-18T10:30:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8347",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "91",
+      "responsibleName": "Ellen Vitória Claudino",
+      "responsibleDepartments": [
+        45,
+        25,
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
       "closedDate": null,
-      "createdDate": "2026-05-18T08:30:00-03:00",
+      "createdDate": "2026-05-18T10:30:00-03:00",
       "isClosed": false
+    },
+    {
+      "id": "8345",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17,
+        23
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-05-18T11:57:45-03:00",
+      "createdDate": "2026-05-18T08:30:00-03:00",
+      "isClosed": true
     },
     {
       "id": "8343",
@@ -1370,8 +1684,8 @@
     {
       "id": "8341",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1383,15 +1697,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T11:05:25-03:00",
       "createdDate": "2026-05-17T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8339",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1403,9 +1717,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T11:05:23-03:00",
       "createdDate": "2026-05-16T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8337",
@@ -1578,8 +1892,8 @@
     {
       "id": "8321",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1592,15 +1906,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:42-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8319",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1613,15 +1927,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:33-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8317",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1634,15 +1948,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:18-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8315",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1655,15 +1969,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:12-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8313",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1676,15 +1990,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:06-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8311",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -1697,114 +2011,9 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:48:02-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8309",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:47:57-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8307",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:47:45-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8305",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:47:37-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8303",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:47:23-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8301",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:47:18-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8299",
@@ -1847,153 +2056,6 @@
       "closedDate": "2026-05-15T12:50:54-03:00",
       "createdDate": "2026-05-15T12:47:01-03:00",
       "isClosed": true
-    },
-    {
-      "id": "8295",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:46:49-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8293",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:46:15-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8291",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:46:02-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8289",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:45:57-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8287",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:45:52-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8285",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:45:45-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8283",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:45:39-03:00",
-      "isClosed": false
     },
     {
       "id": "8281",
@@ -2122,94 +2184,10 @@
       "isClosed": true
     },
     {
-      "id": "8269",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:36:34-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8267",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:36:27-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8265",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:36:21-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8263",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:36:16-03:00",
-      "isClosed": false
-    },
-    {
       "id": "8261",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -2222,15 +2200,15 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:36:11-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8259",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "95",
@@ -2243,219 +2221,9 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T13:13:28-03:00",
       "createdDate": "2026-05-15T12:36:05-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8257",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:58-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8255",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:53-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8253",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:44-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8251",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:37-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8249",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:31-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8247",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:26-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8245",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:19-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8243",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:14-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8241",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:35:08-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8239",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:34:54-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8237",
@@ -2710,27 +2478,6 @@
       "isClosed": true
     },
     {
-      "id": "8213",
-      "title": "ONLINE (WHATSAPP) 14.05.2026",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:20:32-03:00",
-      "isClosed": false
-    },
-    {
       "id": "8211",
       "title": "ONLINE (WHATSAPP) 14.05.2026",
       "status": "5",
@@ -2855,48 +2602,6 @@
       "closedDate": "2026-05-15T12:22:39-03:00",
       "createdDate": "2026-05-15T12:19:17-03:00",
       "isClosed": true
-    },
-    {
-      "id": "8199",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP 14.05.2026",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:19:13-03:00",
-      "isClosed": false
-    },
-    {
-      "id": "8197",
-      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP 14.05.2026",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
-      "priority": "1",
-      "priorityLabel": "Média",
-      "responsibleId": "95",
-      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
-      "responsibleDepartments": [
-        31,
-        25,
-        17
-      ],
-      "groupId": "0",
-      "groupName": "Grupo 0",
-      "deadline": null,
-      "closedDate": null,
-      "createdDate": "2026-05-15T12:19:06-03:00",
-      "isClosed": false
     },
     {
       "id": "8195",
@@ -56358,8 +56063,8 @@
     {
       "id": "299",
       "title": "Limpar caixa sei",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "0",
       "priorityLabel": "Baixa",
       "responsibleId": "63",
@@ -56371,9 +56076,9 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-18T11:05:26-03:00",
       "createdDate": "2025-09-05T11:22:11-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "297",
