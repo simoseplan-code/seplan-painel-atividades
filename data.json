@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-20T10:36:10.973Z",
+  "generatedAt": "2026-05-20T19:35:23.911Z",
   "counts": {
     "users": 91,
     "departments": 30,
     "groups": 19,
-    "tasks": 2765
+    "tasks": 2766
   },
   "users": {
     "1": {
@@ -1228,7 +1228,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 155
+      "taskCount": 156
     },
     "47": {
       "id": "47",
@@ -1328,6 +1328,26 @@
     }
   },
   "tasks": [
+    {
+      "id": "8423",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17,
+        23
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-20T08:30:00-03:00",
+      "isClosed": false
+    },
     {
       "id": "8421",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
