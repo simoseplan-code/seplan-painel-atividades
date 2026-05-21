@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-21T11:57:06.615Z",
+  "generatedAt": "2026-05-21T18:28:14.156Z",
   "counts": {
     "users": 91,
     "departments": 30,
     "groups": 19,
-    "tasks": 2767
+    "tasks": 2768
   },
   "users": {
     "1": {
@@ -1328,6 +1328,25 @@
     }
   },
   "tasks": [
+    {
+      "id": "8427",
+      "title": "MPA - Fazer ligação",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "21",
+      "responsibleName": "Deusdete Lucas",
+      "responsibleDepartments": [
+        13
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": "2026-05-28T13:30:00-03:00",
+      "closedDate": null,
+      "createdDate": "2026-05-21T13:32:29-03:00",
+      "isClosed": false
+    },
     {
       "id": "8425",
       "title": "PROSPECÇÕES DIÁRIAS",
