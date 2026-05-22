@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-22T10:35:24.878Z",
+  "generatedAt": "2026-05-22T17:28:56.405Z",
   "counts": {
-    "users": 91,
+    "users": 89,
     "departments": 30,
     "groups": 19,
-    "tasks": 2768
+    "tasks": 2837
   },
   "users": {
     "1": {
@@ -103,8 +103,7 @@
       "email": "tom.munique123@gmail.com",
       "position": "",
       "departmentIds": [
-        15,
-        13
+        15
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/45d/45dfcdbc4edf487673d90f0d15af0b22/9e13d78edbcd8e33746311892a8742d9.png"
     },
@@ -124,7 +123,7 @@
       "email": "andreanunes.dns@gmail.com",
       "position": "",
       "departmentIds": [
-        13
+        23
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/e39/e3990463c65b9a3557cc8b8b304adf8b/WhatsApp Image 2025-06-23 at 09.40.24.png"
     },
@@ -137,16 +136,6 @@
         27
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/dcf/dcf7d4551e6f32f2f0bdf96ff0caead6/WhatsApp Image 2025-02-28 at 09.23.35.png"
-    },
-    "33": {
-      "id": "33",
-      "name": "Gabriel Melo",
-      "email": "gabrielmelocastro.200gm@gmail.com",
-      "position": "",
-      "departmentIds": [
-        13
-      ],
-      "photo": ""
     },
     "35": {
       "id": "35",
@@ -164,7 +153,7 @@
       "email": "marcos.vitor@seplan.pi.gov.br",
       "position": "",
       "departmentIds": [
-        13
+        23
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/eb7/eb77f5fc6e09d941369f6c1ea5d752e3/WhatsApp Image 2025-06-24 at 10.13.18.png"
     },
@@ -174,7 +163,7 @@
       "email": "aluisiogayoso@msn.com",
       "position": "",
       "departmentIds": [
-        13
+        23
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/cf8/cf855efed11dd75a0d7c67b247aca0fe/Foto - Aluisio.png"
     },
@@ -194,8 +183,7 @@
       "email": "almirr022@gmail.com",
       "position": "Apoio técnico",
       "departmentIds": [
-        17,
-        23
+        17
       ],
       "photo": ""
     },
@@ -259,7 +247,6 @@
       "position": "Diretora",
       "departmentIds": [
         17,
-        23,
         25
       ],
       "photo": ""
@@ -280,7 +267,7 @@
       "email": "renan.javian@yahoo.com.br",
       "position": "",
       "departmentIds": [
-        13
+        23
       ],
       "photo": ""
     },
@@ -300,8 +287,7 @@
       "email": "gigio.gabrielle@gmail.com",
       "position": "Apoio técnico",
       "departmentIds": [
-        17,
-        23
+        17
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/a0e/a0edf77737b9904e3d9cdd2cf4de288f/avatar.png"
     },
@@ -321,8 +307,7 @@
       "email": "sampaio.gla@gmail.com",
       "position": "Apoio técnico",
       "departmentIds": [
-        17,
-        23
+        17
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/d42/d42babf15acf833f05d2a2ee44e3103e/WhatsApp Image 2025-06-27 at 09.46.01.png"
     },
@@ -352,8 +337,7 @@
       "email": "marcia.filandia@hotmail.com",
       "position": "Coordenadora",
       "departmentIds": [
-        17,
-        23
+        17
       ],
       "photo": "https://cdn.bitrix24.com.br/b34066413/main/ff7/ff7150641a5c9c94494ad8b55ea2895e/WhatsApp Image 2025-08-18 at 13.12.20.png"
     },
@@ -453,16 +437,6 @@
       ],
       "photo": ""
     },
-    "93": {
-      "id": "93",
-      "name": "Luiz Henrique Sena Resende",
-      "email": "luizhsrdev@gmail.com",
-      "position": "",
-      "departmentIds": [
-        23
-      ],
-      "photo": ""
-    },
     "95": {
       "id": "95",
       "name": "Ana Jordane Melo Carvalho Bonfim Carvalho",
@@ -481,8 +455,7 @@
       "email": "mariadosocorroportelamartinsve@gmail.com",
       "position": "Coordenadora",
       "departmentIds": [
-        17,
-        23
+        17
       ],
       "photo": ""
     },
@@ -505,8 +478,7 @@
       "position": "Apoio técnico",
       "departmentIds": [
         1,
-        17,
-        23
+        17
       ],
       "photo": ""
     },
@@ -516,7 +488,7 @@
       "email": "emanuellea698@gmail.com",
       "position": "",
       "departmentIds": [
-        13
+        23
       ],
       "photo": ""
     },
@@ -968,8 +940,8 @@
     },
     "13": {
       "id": "13",
-      "name": "GEAE",
-      "parentId": "11"
+      "name": "GECF",
+      "parentId": "17"
     },
     "15": {
       "id": "15",
@@ -993,8 +965,8 @@
     },
     "23": {
       "id": "23",
-      "name": "GECF",
-      "parentId": "17"
+      "name": "GEAE",
+      "parentId": "11"
     },
     "25": {
       "id": "25",
@@ -1216,7 +1188,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 2020
+      "taskCount": 2057
     },
     "39": {
       "id": "39",
@@ -1228,7 +1200,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 157
+      "taskCount": 158
     },
     "47": {
       "id": "47",
@@ -1329,6 +1301,1449 @@
   },
   "tasks": [
     {
+      "id": "8565",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:16:38-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8563",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:16:23-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8561",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:16:17-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8559",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:16:11-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8557",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:16:03-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8555",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:15:52-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8553",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:15:44-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8551",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:15:37-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8549",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:15:25-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8547",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:15:14-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8545",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:57-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8543",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:53-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8541",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:47-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8539",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:43-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8537",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:14:30-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8535",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:08-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8533",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:14:02-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8531",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:58-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8529",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:52-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8527",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:25-03:00",
+      "createdDate": "2026-05-22T13:13:40-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8525",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:34-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8523",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:29-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8521",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:25-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8519",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:13:17-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8517",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:12:45-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8515",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:12:36-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8513",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:12:29-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8511",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:12:23-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8509",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:12:17-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8507",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:11:57-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8505",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:11:39-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8503",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:11:25-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8501",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:11:10-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8499",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:50-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8497",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:37-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8495",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:29-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8493",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:21-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8491",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:10-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8489",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:10:00-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8487",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:09:53-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8485",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:09:45-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8483",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:09:37-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8481",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:09:24-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8479",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:09:15-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8477",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:09:10-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8475",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:09:05-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8473",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:08:56-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8471",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:08:50-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8469",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:08:45-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8467",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:08:37-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8465",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:24-03:00",
+      "createdDate": "2026-05-22T13:08:31-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8463",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:08:24-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8461",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:08:03-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8459",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T13:07:59-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8457",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:07:52-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8455",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:07:42-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8453",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:07:36-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8451",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:07:27-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8449",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:07:19-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8447",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:06:43-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8445",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:06:36-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8443",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:06:26-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8441",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:23-03:00",
+      "createdDate": "2026-05-22T13:06:20-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8439",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:22-03:00",
+      "createdDate": "2026-05-22T13:05:49-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8437",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:22-03:00",
+      "createdDate": "2026-05-22T13:05:42-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8435",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-05-22T13:17:22-03:00",
+      "createdDate": "2026-05-22T13:05:34-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8433",
+      "title": "Pedido da SEDUC, através da aba comunidade no SIMO, pedido de para excluir os seguintes ids no SIMO, pois as ações foram ou irão ser realizadas em Lotes: 11270, 14570, 11290, 11289, 11286, 13846, 11911, 11297, 10212, 11879, 11278, 13275, 15699 e 1126",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "23",
+      "responsibleName": "Alyne Bandeira",
+      "responsibleDepartments": [
+        15
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": "2026-05-22T13:30:00-03:00",
+      "closedDate": null,
+      "createdDate": "2026-05-22T11:32:11-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8431",
+      "title": "Painel de Monitoramento - CONVÊNIOS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "21",
+      "responsibleName": "Deusdete Lucas",
+      "responsibleDepartments": [
+        13
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T11:09:50-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8429",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-22T08:30:00-03:00",
+      "isClosed": false
+    },
+    {
       "id": "8427",
       "title": "MPA - Fazer ligação",
       "status": "2",
@@ -1350,42 +2765,40 @@
     {
       "id": "8425",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-22T08:33:52-03:00",
       "createdDate": "2026-05-21T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8423",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-22T08:33:52-03:00",
       "createdDate": "2026-05-20T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8421",
@@ -1705,22 +3118,21 @@
     {
       "id": "8391",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-05-22T08:33:52-03:00",
       "createdDate": "2026-05-19T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8375",
@@ -1985,8 +3397,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -2005,8 +3416,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -2046,8 +3456,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -2085,8 +3494,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -2105,8 +3513,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -3509,8 +4916,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -3529,8 +4935,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -3549,8 +4954,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -3968,8 +5372,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -3988,8 +5391,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -4491,8 +5893,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4512,8 +5913,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4532,8 +5932,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4573,8 +5972,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4593,8 +5991,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4613,8 +6010,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -4633,8 +6029,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -5115,8 +6510,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -5486,8 +6880,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6052,8 +7445,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6072,8 +7464,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -6092,8 +7483,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -6637,8 +8027,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6658,8 +8047,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6678,8 +8066,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6719,8 +8106,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6739,8 +8125,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6759,8 +8144,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6779,8 +8163,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6799,8 +8182,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -6819,8 +8201,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -7301,8 +8682,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8077,8 +9457,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -8116,8 +9495,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8136,8 +9514,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8867,8 +10244,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8887,8 +10263,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8928,8 +10303,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8948,8 +10322,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -8968,8 +10341,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -9761,8 +11133,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -10346,8 +11717,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -10954,8 +12324,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -10974,8 +12343,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -10995,8 +12363,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11015,8 +12382,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11056,8 +12422,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11076,8 +12441,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11096,8 +12460,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11116,8 +12479,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -11552,8 +12914,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13083,8 +14444,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13103,8 +14463,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13355,8 +14714,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13375,8 +14733,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13416,8 +14773,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13436,8 +14792,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -13456,8 +14811,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -14001,8 +15355,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -14483,8 +15836,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -14881,8 +16233,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -15380,8 +16731,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -15736,8 +17086,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -15966,8 +17315,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -15987,8 +17335,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16007,8 +17354,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16048,8 +17394,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16068,8 +17413,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16088,8 +17432,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16108,8 +17451,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16128,8 +17470,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16148,8 +17489,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16168,8 +17508,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -16314,8 +17653,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16481,8 +17819,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -16627,8 +17964,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -16647,8 +17983,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -16793,8 +18128,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -17148,8 +18482,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17168,8 +18501,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17329,8 +18661,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17349,8 +18680,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17369,8 +18699,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17823,8 +19152,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -17969,8 +19297,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -18407,8 +19734,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19120,8 +20446,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19477,8 +20802,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19497,8 +20821,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19538,8 +20861,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -19558,8 +20880,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19578,8 +20899,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19598,8 +20918,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -19723,8 +21042,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -20079,8 +21397,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -22570,8 +23887,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23113,8 +24429,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23470,8 +24785,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23490,8 +24804,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23531,8 +24844,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23551,8 +24863,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23571,8 +24882,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -23797,8 +25107,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -24319,8 +25628,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -24654,8 +25962,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25032,8 +26339,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25870,8 +27176,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25890,8 +27195,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25950,8 +27254,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25970,8 +27273,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -25990,8 +27292,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -26640,8 +27941,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -27269,8 +28569,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -27289,8 +28588,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -27309,8 +28607,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -27959,8 +29256,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -28055,8 +29351,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -28766,8 +30061,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29374,8 +30668,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29395,8 +30688,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29415,8 +30707,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29456,8 +30747,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29476,8 +30766,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29496,8 +30785,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29516,8 +30804,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -29830,8 +31117,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -30480,8 +31766,7 @@
       "responsibleId": "43",
       "responsibleName": "Almir Ricardo",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31046,8 +32331,7 @@
       "responsibleId": "43",
       "responsibleName": "Almir Ricardo",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31276,8 +32560,7 @@
       "responsibleId": "43",
       "responsibleName": "Almir Ricardo",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31486,8 +32769,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31506,8 +32788,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31589,8 +32870,7 @@
       "responsibleId": "43",
       "responsibleName": "Almir Ricardo",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31609,8 +32889,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -31629,8 +32908,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -32720,8 +33998,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33076,8 +34353,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33096,8 +34372,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33116,8 +34391,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33137,8 +34411,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33157,8 +34430,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33198,8 +34470,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33218,8 +34489,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33238,8 +34508,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -33527,8 +34796,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -34408,8 +35676,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -34470,8 +35737,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -34490,8 +35756,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -34804,8 +36069,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -34824,8 +36088,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35285,8 +36548,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35305,8 +36567,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35746,8 +37007,7 @@
       "responsibleName": "João Victor Melo",
       "responsibleDepartments": [
         1,
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35766,8 +37026,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35807,8 +37066,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35827,8 +37085,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -35847,8 +37104,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -36602,8 +37858,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
@@ -50100,8 +51355,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55540,8 +56794,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55560,8 +56813,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55675,8 +56927,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55771,8 +57022,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55791,8 +57041,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55887,8 +57136,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -55907,8 +57155,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56153,10 +57400,8 @@
       "priority": "0",
       "priorityLabel": "Baixa",
       "responsibleId": "33",
-      "responsibleName": "Gabriel Melo",
-      "responsibleDepartments": [
-        13
-      ],
+      "responsibleName": "—",
+      "responsibleDepartments": [],
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": "2025-10-31T19:00:00-03:00",
@@ -56174,8 +57419,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56289,7 +57533,7 @@
       "responsibleId": "29",
       "responsibleName": "Andrea Nunes",
       "responsibleDepartments": [
-        13
+        23
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56327,8 +57571,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56347,8 +57590,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56386,8 +57628,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56425,7 +57666,7 @@
       "responsibleId": "29",
       "responsibleName": "Andrea Nunes",
       "responsibleDepartments": [
-        13
+        23
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56444,8 +57685,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56464,8 +57704,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56484,8 +57723,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56504,8 +57742,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56524,8 +57761,7 @@
       "responsibleId": "73",
       "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56544,8 +57780,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56564,8 +57799,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56584,8 +57818,7 @@
       "responsibleId": "67",
       "responsibleName": "Glaysa Linhares",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56604,8 +57837,7 @@
       "responsibleId": "67",
       "responsibleName": "Glaysa Linhares",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56624,8 +57856,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56644,8 +57875,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56664,8 +57894,7 @@
       "responsibleId": "67",
       "responsibleName": "Glaysa Linhares",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56684,8 +57913,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56704,8 +57932,7 @@
       "responsibleId": "73",
       "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56724,8 +57951,7 @@
       "responsibleId": "63",
       "responsibleName": "Geovanna Silva",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56744,8 +57970,7 @@
       "responsibleId": "67",
       "responsibleName": "Glaysa Linhares",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56764,8 +57989,7 @@
       "responsibleId": "67",
       "responsibleName": "Glaysa Linhares",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56784,8 +58008,7 @@
       "responsibleId": "73",
       "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56804,8 +58027,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56843,8 +58065,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56863,8 +58084,7 @@
       "responsibleId": "73",
       "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56883,8 +58103,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56903,8 +58122,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56923,8 +58141,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56943,8 +58160,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56963,8 +58179,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -56983,8 +58198,7 @@
       "responsibleId": "97",
       "responsibleName": "Maria do Socorro Portela Martins Veloso",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57003,8 +58217,7 @@
       "responsibleId": "73",
       "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
       "responsibleDepartments": [
-        17,
-        23
+        17
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57105,10 +58318,8 @@
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "93",
-      "responsibleName": "Luiz Henrique Sena Resende",
-      "responsibleDepartments": [
-        23
-      ],
+      "responsibleName": "—",
+      "responsibleDepartments": [],
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": null,
@@ -57208,8 +58419,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57247,8 +58457,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57267,8 +58476,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57344,8 +58552,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57763,8 +58970,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -57921,7 +59127,6 @@
       "responsibleName": "Yolanda Costa",
       "responsibleDepartments": [
         17,
-        23,
         25
       ],
       "groupId": "0",
@@ -57981,8 +59186,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58172,8 +59376,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58193,7 +59396,6 @@
       "responsibleName": "Yolanda Costa",
       "responsibleDepartments": [
         17,
-        23,
         25
       ],
       "groupId": "0",
@@ -58270,7 +59472,7 @@
       "responsibleId": "59",
       "responsibleName": "Renan Javian",
       "responsibleDepartments": [
-        13
+        23
       ],
       "groupId": "3",
       "groupName": "DEMANDAS GIP",
@@ -58403,8 +59605,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58442,8 +59643,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "11",
       "groupName": "GRUPO DE TRABALHO PROGESTÃO",
@@ -58462,7 +59662,7 @@
       "responsibleId": "59",
       "responsibleName": "Renan Javian",
       "responsibleDepartments": [
-        13
+        23
       ],
       "groupId": "11",
       "groupName": "GRUPO DE TRABALHO PROGESTÃO",
@@ -58519,8 +59719,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58539,8 +59738,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58654,8 +59852,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
@@ -58693,8 +59890,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "3",
       "groupName": "DEMANDAS GIP",
@@ -58713,8 +59909,7 @@
       "responsibleId": "25",
       "responsibleName": "tom munique",
       "responsibleDepartments": [
-        15,
-        13
+        15
       ],
       "groupId": "1",
       "groupName": "001 - Reforma Escola Piloto – BIM SEDUC",
