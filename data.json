@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T10:56:45.981Z",
+  "generatedAt": "2026-05-29T19:55:03.508Z",
   "counts": {
     "users": 90,
     "departments": 30,
     "groups": 19,
-    "tasks": 2889
+    "tasks": 2890
   },
   "users": {
     "1": {
@@ -1214,7 +1214,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 75
+      "taskCount": 76
     },
     "47": {
       "id": "47",
@@ -1314,6 +1314,25 @@
     }
   },
   "tasks": [
+    {
+      "id": "8863",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-05-29T08:30:00-03:00",
+      "isClosed": false
+    },
     {
       "id": "8861",
       "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
@@ -2298,8 +2317,8 @@
     {
       "id": "8765",
       "title": "Visita ao Porto",
-      "status": "3",
-      "statusLabel": "Em andamento",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "21",
@@ -2310,9 +2329,9 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": "2026-06-04T13:30:00-03:00",
-      "closedDate": null,
+      "closedDate": "2026-05-29T10:19:53-03:00",
       "createdDate": "2026-05-27T08:39:41-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8759",
