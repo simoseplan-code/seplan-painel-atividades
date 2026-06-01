@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-31T21:36:55.185Z",
+  "generatedAt": "2026-06-01T19:14:00.533Z",
   "counts": {
     "users": 90,
     "departments": 30,
     "groups": 19,
-    "tasks": 2892
+    "tasks": 2919
   },
   "users": {
     "1": {
@@ -1202,7 +1202,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 2188
+      "taskCount": 2209
     },
     "39": {
       "id": "39",
@@ -1214,7 +1214,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 78
+      "taskCount": 84
     },
     "47": {
       "id": "47",
@@ -1315,10 +1315,451 @@
   },
   "tasks": [
     {
-      "id": "8867",
-      "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "id": "8921",
+      "title": "ATENDIMENTO WATTSAP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:01-03:00",
+      "createdDate": "2026-06-01T13:28:14-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8919",
+      "title": "ATENDIMENTO LIGAÇÃO TELEFONE",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:01-03:00",
+      "createdDate": "2026-06-01T13:27:07-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8917",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:43-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8915",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:37-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8913",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:31-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8911",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:25-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8909",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:19-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8907",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:10-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8905",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:26:03-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8903",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:03-03:00",
+      "createdDate": "2026-06-01T13:25:57-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8901",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:51-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8899",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:45-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8897",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:35-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8895",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:25-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8893",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:18-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8891",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:11-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8889",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:25:05-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8887",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:24:29-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8885",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:24:23-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8883",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:24:16-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8881",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:29:02-03:00",
+      "createdDate": "2026-06-01T13:24:09-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8879",
+      "title": "APRESENTAÇÃO IDTRUL",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1329,15 +1770,133 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
+      "closedDate": "2026-06-01T13:05:53-03:00",
+      "createdDate": "2026-06-01T11:00:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8877",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "109",
+      "responsibleName": "João Victor Melo",
+      "responsibleDepartments": [
+        1,
+        17,
+        13
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
       "closedDate": null,
-      "createdDate": "2026-05-31T08:30:00-03:00",
+      "createdDate": "2026-06-01T10:30:00-03:00",
       "isClosed": false
+    },
+    {
+      "id": "8875",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:05:53-03:00",
+      "createdDate": "2026-06-01T10:30:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8873",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "91",
+      "responsibleName": "Ellen Vitória Claudino",
+      "responsibleDepartments": [
+        45,
+        25,
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-01T10:30:00-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8871",
+      "title": "BASE DE DADOS TRANSFERE",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:05:53-03:00",
+      "createdDate": "2026-06-01T09:00:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8869",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T13:05:52-03:00",
+      "createdDate": "2026-06-01T08:30:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "8867",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-06-01T11:44:21-03:00",
+      "createdDate": "2026-05-31T08:30:00-03:00",
+      "isClosed": true
     },
     {
       "id": "8865",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1348,15 +1907,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-01T11:44:21-03:00",
       "createdDate": "2026-05-30T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8863",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1367,9 +1926,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-01T11:44:21-03:00",
       "createdDate": "2026-05-29T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8861",
@@ -1731,8 +2290,8 @@
     {
       "id": "8825",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1743,9 +2302,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-01T11:44:21-03:00",
       "createdDate": "2026-05-28T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8823",
@@ -5686,8 +6245,8 @@
     {
       "id": "8427",
       "title": "MPA - Fazer ligação",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "6",
+      "statusLabel": "Adiada",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "21",
@@ -5697,7 +6256,7 @@
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
-      "deadline": "2026-05-28T13:30:00-03:00",
+      "deadline": "2026-06-05T13:30:00-03:00",
       "closedDate": null,
       "createdDate": "2026-05-21T13:32:29-03:00",
       "isClosed": false
@@ -8093,8 +8652,8 @@
     {
       "id": "8079",
       "title": "Plano de ação SECID GIP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "25",
@@ -8105,9 +8664,9 @@
       "groupId": "0",
       "groupName": "Grupo 0",
       "deadline": "2026-05-22T13:30:00-03:00",
-      "closedDate": null,
+      "closedDate": "2026-06-01T10:46:57-03:00",
       "createdDate": "2026-05-12T13:35:45-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8077",
@@ -29934,7 +30493,7 @@
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
-      "deadline": "2027-01-01T13:30:00-03:00",
+      "deadline": null,
       "closedDate": null,
       "createdDate": "2026-03-05T10:03:19-03:00",
       "isClosed": false
