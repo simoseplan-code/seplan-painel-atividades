@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-01T23:58:58.376Z",
+  "generatedAt": "2026-06-02T12:59:08.969Z",
   "counts": {
     "users": 90,
     "departments": 30,
     "groups": 19,
-    "tasks": 2919
+    "tasks": 2921
   },
   "users": {
     "1": {
@@ -1214,7 +1214,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 84
+      "taskCount": 85
     },
     "47": {
       "id": "47",
@@ -1314,6 +1314,45 @@
     }
   },
   "tasks": [
+    {
+      "id": "8925",
+      "title": "Reunião da Seinfra/Sempi/Idepi com Gigov/Seplan",
+      "status": "3",
+      "statusLabel": "Em andamento",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "73",
+      "responsibleName": "MÁRCIA FILÂNDIA OLIVEIRA MEDEIROS",
+      "responsibleDepartments": [
+        17,
+        13
+      ],
+      "groupId": "0",
+      "groupName": "Grupo 0",
+      "deadline": "2026-06-02T13:30:00-03:00",
+      "closedDate": null,
+      "createdDate": "2026-06-02T09:06:10-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "8923",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-02T08:30:00-03:00",
+      "isClosed": false
+    },
     {
       "id": "8921",
       "title": "ATENDIMENTO WATTSAP",
@@ -2321,7 +2360,7 @@
       ],
       "groupId": "0",
       "groupName": "Grupo 0",
-      "deadline": "2026-06-03T13:30:00-03:00",
+      "deadline": "2026-06-30T13:30:00-03:00",
       "closedDate": null,
       "createdDate": "2026-05-27T13:20:58-03:00",
       "isClosed": false
@@ -2371,8 +2410,8 @@
     {
       "id": "8817",
       "title": "ATENDIMENTO WHATSAPP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "91",
@@ -2385,15 +2424,15 @@
       "groupId": "37",
       "groupName": "GERENCIA DE REPASSES ESTADUAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-02T08:56:32-03:00",
       "createdDate": "2026-05-27T12:37:20-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8815",
       "title": "ATENDIMENTO WHATSAPP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "91",
@@ -2406,15 +2445,15 @@
       "groupId": "37",
       "groupName": "GERENCIA DE REPASSES ESTADUAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-02T08:56:32-03:00",
       "createdDate": "2026-05-27T12:37:16-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8813",
       "title": "ATENDIMENTO WHATSAPP",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "91",
@@ -2427,15 +2466,15 @@
       "groupId": "37",
       "groupName": "GERENCIA DE REPASSES ESTADUAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-02T08:56:31-03:00",
       "createdDate": "2026-05-27T12:36:16-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8811",
       "title": "ATENDIMENTO LIGAÇÃO TELEFONE",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "91",
@@ -2448,15 +2487,15 @@
       "groupId": "37",
       "groupName": "GERENCIA DE REPASSES ESTADUAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-02T08:56:31-03:00",
       "createdDate": "2026-05-27T12:36:11-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8809",
       "title": "Atendimento presencial",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "91",
@@ -2469,9 +2508,9 @@
       "groupId": "37",
       "groupName": "GERENCIA DE REPASSES ESTADUAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-02T08:56:31-03:00",
       "createdDate": "2026-05-27T12:35:04-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "8807",
