@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-03T16:03:39.432Z",
+  "generatedAt": "2026-06-03T23:18:03.105Z",
   "counts": {
     "users": 90,
     "departments": 30,
     "groups": 19,
-    "tasks": 2989
+    "tasks": 2990
   },
   "users": {
     "1": {
@@ -1202,7 +1202,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 2275
+      "taskCount": 2276
     },
     "39": {
       "id": "39",
@@ -1314,6 +1314,27 @@
     }
   },
   "tasks": [
+    {
+      "id": "9071",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-03T13:35:07-03:00",
+      "isClosed": false
+    },
     {
       "id": "9069",
       "title": "ATENDIMENTO WATTS",
