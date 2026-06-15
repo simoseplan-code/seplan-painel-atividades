@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-15T11:42:02.991Z",
+  "generatedAt": "2026-06-15T16:51:48.245Z",
   "counts": {
     "users": 90,
     "departments": 30,
     "groups": 19,
-    "tasks": 3108
+    "tasks": 3111
   },
   "users": {
     "1": {
@@ -1214,7 +1214,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 101
+      "taskCount": 104
     },
     "47": {
       "id": "47",
@@ -1315,10 +1315,31 @@
   },
   "tasks": [
     {
-      "id": "9313",
-      "title": "PROSPECÇÕES DIÁRIAS",
+      "id": "9319",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
       "status": "2",
       "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "109",
+      "responsibleName": "João Victor Melo",
+      "responsibleDepartments": [
+        1,
+        17,
+        13
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-15T10:30:00-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9317",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1329,15 +1350,55 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
+      "closedDate": "2026-06-15T11:44:47-03:00",
+      "createdDate": "2026-06-15T10:30:00-03:00",
+      "isClosed": true
+    },
+    {
+      "id": "9315",
+      "title": "ATUALIZAÇÃO SUSPENSIVAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "91",
+      "responsibleName": "Ellen Vitória Claudino",
+      "responsibleDepartments": [
+        45,
+        25,
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
       "closedDate": null,
-      "createdDate": "2026-06-15T08:30:00-03:00",
+      "createdDate": "2026-06-15T10:30:00-03:00",
       "isClosed": false
+    },
+    {
+      "id": "9313",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": "2026-06-15T11:43:49-03:00",
+      "createdDate": "2026-06-15T08:30:00-03:00",
+      "isClosed": true
     },
     {
       "id": "9311",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1348,15 +1409,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:39-03:00",
       "createdDate": "2026-06-14T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9309",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1367,15 +1428,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:39-03:00",
       "createdDate": "2026-06-13T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9307",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1386,9 +1447,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:39-03:00",
       "createdDate": "2026-06-12T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9305",
@@ -1895,8 +1956,8 @@
     {
       "id": "9257",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1907,9 +1968,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:39-03:00",
       "createdDate": "2026-06-11T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9255",
@@ -2292,8 +2353,8 @@
     {
       "id": "9219",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2304,9 +2365,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:39-03:00",
       "createdDate": "2026-06-10T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9217",
@@ -3296,8 +3357,8 @@
     {
       "id": "9123",
       "title": "ATUALIZAÇÃO SUSPENSIVAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -3308,9 +3369,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-15T11:43:40-03:00",
       "createdDate": "2026-06-08T10:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9121",
