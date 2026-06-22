@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-22T05:37:55.171Z",
+  "generatedAt": "2026-06-22T11:30:43.778Z",
   "counts": {
     "users": 90,
     "departments": 30,
-    "groups": 19,
-    "tasks": 3243
+    "groups": 20,
+    "tasks": 3244
   },
   "users": {
     "1": {
@@ -1214,7 +1214,7 @@
       "opened": false,
       "dateCreate": "2025-11-18T15:29:04+03:00",
       "dateUpdate": "2025-11-18T15:31:05+03:00",
-      "taskCount": 110
+      "taskCount": 111
     },
     "47": {
       "id": "47",
@@ -1311,9 +1311,40 @@
       "dateCreate": "2026-04-29T17:34:53+03:00",
       "dateUpdate": "2026-04-29T17:34:53+03:00",
       "taskCount": 0
+    },
+    "77": {
+      "id": "77",
+      "name": "DEMANDAS PENDENTES SOLUÇÃO SIMO",
+      "description": "",
+      "ownerId": "25",
+      "closed": false,
+      "visible": true,
+      "opened": false,
+      "dateCreate": "2026-06-22T13:48:05+03:00",
+      "dateUpdate": "2026-06-22T13:48:05+03:00",
+      "taskCount": 0
     }
   },
   "tasks": [
+    {
+      "id": "9609",
+      "title": "PROSPECÇÕES DIÁRIAS",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "63",
+      "responsibleName": "Geovanna Silva",
+      "responsibleDepartments": [
+        17
+      ],
+      "groupId": "39",
+      "groupName": "GERENCIA DE REPASSES FEDERAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-22T08:30:00-03:00",
+      "isClosed": false
+    },
     {
       "id": "9593",
       "title": "PROSPECÇÕES DIÁRIAS",
