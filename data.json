@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-24T09:55:52.215Z",
+  "generatedAt": "2026-06-24T12:13:38.625Z",
   "counts": {
     "users": 93,
     "departments": 30,
     "groups": 20,
-    "tasks": 3314
+    "tasks": 3315
   },
   "users": {
     "1": {
@@ -1232,7 +1232,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 2571
+      "taskCount": 2572
     },
     "39": {
       "id": "39",
@@ -1356,6 +1356,27 @@
     }
   },
   "tasks": [
+    {
+      "id": "9761",
+      "title": "REGISTRO DE EVENTO NA AGENDA",
+      "status": "5",
+      "statusLabel": "Concluída",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "91",
+      "responsibleName": "Ellen Vitória Claudino",
+      "responsibleDepartments": [
+        45,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": "2026-06-24T08:04:24-03:00",
+      "createdDate": "2026-06-24T08:03:29-03:00",
+      "isClosed": true
+    },
     {
       "id": "9759",
       "title": "ATENDIMENTO WATTS",
