@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-24T12:13:38.625Z",
+  "generatedAt": "2026-06-24T15:15:19.049Z",
   "counts": {
     "users": 93,
     "departments": 30,
     "groups": 20,
-    "tasks": 3315
+    "tasks": 3323
   },
   "users": {
     "1": {
@@ -1232,7 +1232,7 @@
       "opened": false,
       "dateCreate": "2025-11-17T18:04:17+03:00",
       "dateUpdate": "2025-11-17T18:04:17+03:00",
-      "taskCount": 2572
+      "taskCount": 2580
     },
     "39": {
       "id": "39",
@@ -1356,6 +1356,174 @@
     }
   },
   "tasks": [
+    {
+      "id": "9777",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:52:14-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9775",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:52:07-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9773",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:52:01-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9771",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:51:56-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9769",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:51:44-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9767",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:51:39-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9765",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:51:32-03:00",
+      "isClosed": false
+    },
+    {
+      "id": "9763",
+      "title": "ATENDIMENTO – HABILITAÇÃO SIGRP",
+      "status": "2",
+      "statusLabel": "Aguardando execução",
+      "priority": "1",
+      "priorityLabel": "Média",
+      "responsibleId": "95",
+      "responsibleName": "Ana Jordane Melo Carvalho Bonfim Carvalho",
+      "responsibleDepartments": [
+        31,
+        25,
+        17
+      ],
+      "groupId": "37",
+      "groupName": "GERENCIA DE REPASSES ESTADUAL",
+      "deadline": null,
+      "closedDate": null,
+      "createdDate": "2026-06-24T09:51:25-03:00",
+      "isClosed": false
+    },
     {
       "id": "9761",
       "title": "REGISTRO DE EVENTO NA AGENDA",
@@ -1842,8 +2010,8 @@
     {
       "id": "9709",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -1854,9 +2022,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-23T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9707",
@@ -2449,8 +2617,8 @@
     {
       "id": "9651",
       "title": "ATUALIZAÇÃO SUSPENSIVAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2461,9 +2629,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:41-03:00",
       "createdDate": "2026-06-22T10:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9649",
@@ -2888,8 +3056,8 @@
     {
       "id": "9609",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2900,15 +3068,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-22T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9593",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2919,15 +3087,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-21T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9591",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2938,15 +3106,15 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-20T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9589",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -2957,9 +3125,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-19T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9587",
@@ -3531,8 +3699,8 @@
     {
       "id": "9533",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -3543,9 +3711,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:40-03:00",
       "createdDate": "2026-06-18T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9531",
@@ -3928,8 +4096,8 @@
     {
       "id": "9495",
       "title": "PROSPECÇÕES DIÁRIAS",
-      "status": "2",
-      "statusLabel": "Aguardando execução",
+      "status": "5",
+      "statusLabel": "Concluída",
       "priority": "1",
       "priorityLabel": "Média",
       "responsibleId": "63",
@@ -3940,9 +4108,9 @@
       "groupId": "39",
       "groupName": "GERENCIA DE REPASSES FEDERAL",
       "deadline": null,
-      "closedDate": null,
+      "closedDate": "2026-06-24T10:04:39-03:00",
       "createdDate": "2026-06-17T08:30:00-03:00",
-      "isClosed": false
+      "isClosed": true
     },
     {
       "id": "9493",
