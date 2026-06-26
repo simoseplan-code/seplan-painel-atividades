@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-26T09:28:39.574Z",
+  "generatedAt": "2026-06-26T11:58:27.011Z",
   "counts": {
-    "users": 93,
+    "users": 94,
     "departments": 30,
     "groups": 20,
     "tasks": 3355
@@ -954,6 +954,16 @@
       "id": "213",
       "name": "Weslley",
       "email": "wesufpi@gmail.com",
+      "position": "",
+      "departmentIds": [
+        1
+      ],
+      "photo": ""
+    },
+    "215": {
+      "id": "215",
+      "name": "Amanda Torres",
+      "email": "amanda.torres@seplan.pi.gov.br",
       "position": "",
       "departmentIds": [
         1
